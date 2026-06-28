@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<title>Optimasi Rantai Pasok Kedelai - Dashboard</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+  <h1>Optimasi Rantai Pasok Kedelai</h1>
+  <div class="subtitle">Rencana alokasi bulanan hasil ALNS - ringkasan keputusan, peta, dan detail aliran</div>
+
+  <div id="controls">
+    <label>Skenario:
+      <select id="scenario-select">
+        <option value="initial">Solusi Awal ALNS</option>
+        <option value="optimized" selected>Rekomendasi Model</option>
+      </select>
+    </label>
+
+    <label>Bulan:
+      <select id="month-select"></select>
+    </label>
+
+    <label class="toggle"><input type="checkbox" id="show-flows" checked/> Aliran impor</label>
+    <label class="toggle"><input type="checkbox" id="show-transfers" checked/> Transfer</label>
+    <label class="toggle"><input type="checkbox" id="show-ports" checked/> Pelabuhan</label>
+    <label class="toggle"><input type="checkbox" id="show-adjacency"/> Adjacency W+W<sub>sea</sub></label>
+
+    <span id="status-bar"></span>
+  </div>
+</header>
+
+<section id="decision-cockpit">
+  <div class="cockpit-header">
+    <div>
+      <div class="eyebrow">Rencana alokasi bulan terpilih</div>
+      <h2 id="decision-title">Rencana Model</h2>
+    </div>
+    <div id="decision-mode">Rekomendasi Model</div>
+  </div>
+
+  <section class="province-inspector">
+    <div class="inspector-head">
+      <div>
+        <div class="eyebrow">Cek provinsi dulu, baru nasional</div>
+        <h3 id="province-plan-title">Rencana Provinsi</h3>
+      </div>
+      <label>Provinsi:
+        <select id="province-plan-select"></select>
+      </label>
+    </div>
+    <div id="month-quick" class="month-quick"></div>
+    <div id="province-current-flow" class="province-current-flow"></div>
+    <div id="province-plan-summary" class="province-plan-summary"></div>
+    <div class="province-month-table-wrap">
+      <table id="province-month-plan">
+        <thead>
+          <tr>
+            <th>Bulan</th>
+            <th>Demand</th>
+            <th>Lokal</th>
+            <th>Impor</th>
+            <th>Trn In</th>
+            <th>Trn Out</th>
+            <th>Inventori</th>
+            <th>Shortage</th>
+            <th>Service</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="port-inspector">
+    <div class="inspector-head">
+      <div>
+        <div class="eyebrow">Cek pelabuhan tanpa pindah halaman</div>
+        <h3 id="port-plan-title">Rencana Pelabuhan</h3>
+      </div>
+      <label>Pelabuhan:
+        <select id="port-plan-select"></select>
+      </label>
+    </div>
+    <div id="port-current-flow" class="province-current-flow"></div>
+    <div id="port-plan-summary" class="province-plan-summary"></div>
+    <div class="province-month-table-wrap">
+      <table id="port-month-plan">
+        <thead>
+          <tr>
+            <th>Bulan</th>
+            <th>Total Masuk</th>
+            <th>Total Keluar</th>
+            <th>Kapasitas</th>
+            <th>Utilisasi</th>
+            <th>Negara terbesar</th>
+            <th>Tujuan terbesar</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div id="decision-narrative" class="decision-narrative"></div>
+  <div id="decision-kpis" class="decision-kpis"></div>
+
+  <div class="action-grid">
+    <article class="action-card">
+      <div class="action-card-head">
+        <h3>1. Impor Masuk</h3>
+        <span id="country-summary"></span>
+      </div>
+      <div id="top-ports"></div>
+    </article>
+
+    <article class="action-card">
+      <div class="action-card-head">
+        <h3>2. Distribusi ke Provinsi</h3>
+        <span>penerima terbesar</span>
+      </div>
+      <div id="top-receivers"></div>
+    </article>
+
+    <article class="action-card">
+      <div class="action-card-head">
+        <h3>3. Transfer Antarprovinsi</h3>
+        <span id="transfer-action-summary"></span>
+      </div>
+      <div id="top-transfer-actions"></div>
+    </article>
+
+    <article class="action-card">
+      <div class="action-card-head">
+        <h3>4. Risiko Operasional</h3>
+        <span>yang perlu dicek</span>
+      </div>
+      <div id="risk-actions"></div>
+    </article>
+  </div>
+</section>
+
+<div id="map"></div>
+
+<div id="legend">
+  <strong>Legenda:</strong>
+  <span class="dot dot-100"></span> 100% layanan
+  <span class="dot dot-90"></span> 90-99%
+  <span class="dot dot-75"></span> 75-89%
+  <span class="dot dot-low"></span> &lt;75%
+  <span class="square"></span> Pelabuhan
+  <span class="line-imp"></span> Impor (port-prov)
+  <span class="line-trn"></span> Transfer (prov-prov)
+  <span class="line-adj-land"></span> W (land)
+  <span class="line-adj-sea"></span> W<sub>sea</sub> (ferry)
+</div>
+
+<div id="tabs">
+  <button class="tab active" data-tab="provinces">Provinsi (38)</button>
+  <button class="tab" data-tab="ports">Pelabuhan (11)</button>
+  <button class="tab" data-tab="transfers">Transfer</button>
+  <button class="tab" data-tab="clusters">Pulau / Cluster (6)</button>
+  <button class="tab" data-tab="analytics">Analisis Biaya</button>
+</div>
+
+<div id="tab-content">
+
+  <div id="provinces-panel" class="panel active">
+    <table id="province-table">
+      <thead>
+        <tr>
+          <th data-sort="name">Provinsi</th>
+          <th data-sort="demand">Demand</th>
+          <th data-sort="local">Lokal</th>
+          <th data-sort="import">Impor</th>
+          <th data-sort="trnIn">Trn In</th>
+          <th data-sort="trnOut">Trn Out</th>
+          <th data-sort="shortage">Shortage</th>
+          <th data-sort="service">Service</th>
+          <th data-sort="inv">Inventori</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="province-detail" class="detail">
+      <em>Klik baris atau marker provinsi untuk melihat detail.</em>
+    </div>
+  </div>
+
+  <div id="ports-panel" class="panel">
+    <table id="port-table">
+      <thead>
+        <tr>
+          <th data-sort="name">Pelabuhan</th>
+          <th data-sort="totalIn">Total Masuk</th>
+          <th data-sort="totalOut">Total Keluar</th>
+          <th data-sort="cap">Kapasitas</th>
+          <th data-sort="util">Utilisasi</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="port-detail" class="detail">
+      <em>Klik baris atau marker pelabuhan untuk melihat detail.</em>
+    </div>
+  </div>
+
+  <div id="transfers-panel" class="panel">
+    <div class="table-tools">
+      <label>Skenario:
+        <select id="transfer-scenario">
+          <option value="optimized" selected>Rekomendasi Model</option>
+          <option value="initial">Solusi Awal ALNS</option>
+          <option value="both">Solusi Awal + Rekomendasi</option>
+        </select>
+      </label>
+      <label>Bulan:
+        <select id="transfer-month">
+          <option value="all" selected>Semua bulan</option>
+        </select>
+      </label>
+      <span id="transfer-summary"></span>
+    </div>
+    <table id="transfer-table">
+      <thead>
+        <tr>
+          <th data-sort="scenario">Skenario</th>
+          <th data-sort="month_idx">Bulan</th>
+          <th data-sort="from">Dari Provinsi</th>
+          <th data-sort="to">Ke Provinsi</th>
+          <th data-sort="volume">Volume</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div id="clusters-panel" class="panel">
+    <table id="cluster-table">
+      <thead>
+        <tr>
+          <th data-sort="name">Pulau / Cluster</th>
+          <th data-sort="provs">Jumlah Prov.</th>
+          <th data-sort="demand">Demand</th>
+          <th data-sort="local">Lokal</th>
+          <th data-sort="import">Impor</th>
+          <th data-sort="shortage">Shortage</th>
+          <th data-sort="inv">Inventori</th>
+          <th data-sort="service">Service</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="cluster-detail" class="detail">
+      <em>Klik baris cluster untuk melihat detail per provinsi.</em>
+    </div>
+  </div>
+
+  <div id="analytics-panel" class="panel">
+    <div id="kpi-cards" class="kpi-grid"></div>
+
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3>Dekomposisi Z<sub>cost</sub> - Solusi Awal vs Rekomendasi</h3>
+        <canvas id="chart-cost-breakdown"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Konvergensi ALNS (Objective History)</h3>
+        <canvas id="chart-convergence"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Konvergensi Z<sub>cost</sub></h3>
+        <canvas id="chart-cost-convergence"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Konvergensi Penalty</h3>
+        <canvas id="chart-penalty-convergence"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Supply vs Demand Bulanan (Rekomendasi Model)</h3>
+        <canvas id="chart-monthly-supply"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Komposisi Sumber Pasokan per Bulan</h3>
+        <canvas id="chart-source-mix"></canvas>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <small>Soybean Supply Chain ALNS - Tugas Akhir SM234801, ITS 2026.
+  Dataset: BPS 2024 + Proyeksi Neraca Komoditas Kedelai.</small>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
