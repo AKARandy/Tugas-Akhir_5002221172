@@ -3,8 +3,7 @@
 Tugas Akhir — Alief Randiansyah Pradanaputra (5002221172)
 
 Repositori ini berisi model optimasi rantai pasok kedelai Indonesia menggunakan
-Adaptive Large Neighborhood Search (ALNS) dengan augmentasi Prism Refraction
-Search (PRS-adapted).
+Adaptive Large Neighborhood Search (ALNS)
 
 ## Struktur
 
