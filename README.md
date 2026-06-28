@@ -43,19 +43,8 @@ python run_experiments_multi.py
 python run_scenarios_best_model.py
 ```
 
-## Dashboard
-
-Dashboard interaktif tersedia di `docs/index.html`. Deploy via GitHub Pages:
-
-1. Buka repo Settings → Pages
-2. Source: **Deploy from a branch**, branch `main`, folder `/docs`
-3. Buka `https://akarandy.github.io/Tugas-Akhir_5002221172/`
 
 ## Konfigurasi
 
 `config.py` adalah satu-satunya file yang perlu diedit untuk mengubah parameter
 run (MAX_ITER, SA_COOLING, PENALTY_SCALE, operator toggles, dll.).
-
-## Sitasi
-
-Tugas Akhir, Departemen Teknik Sistem dan Industri, Institut Teknologi Sepuluh Nopember (ITS), 2025.
