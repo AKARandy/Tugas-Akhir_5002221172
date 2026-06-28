@@ -1,0 +1,1057 @@
+﻿province_id,provinsi,commodity_id,komoditas,bulan,tahun,Impor (Ton),Ekspor (Ton),status
+11,ACEH,3,Kedelai,Januari,2023, 365.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Februari,2023, 246.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Maret,2023, 303.00 , -   ,realisasi
+11,ACEH,3,Kedelai,April,2023, 752.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Mei,2023, 291.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Juni,2023, 268.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Juli,2023, 389.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Agustus,2023, 395.00 , -   ,realisasi
+11,ACEH,3,Kedelai,September,2023, 573.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Oktober,2023, 573.00 , -   ,realisasi
+11,ACEH,3,Kedelai,November,2023, -   , -   ,realisasi
+11,ACEH,3,Kedelai,Desember,2023, -   , -   ,realisasi
+11,ACEH,3,Kedelai,Januari,2025, -   , 54.00 ,realisasi
+11,ACEH,3,Kedelai,Februari,2025, 34.00 , 3.00 ,realisasi
+11,ACEH,3,Kedelai,Maret,2025, 65.00 , 10.00 ,realisasi
+11,ACEH,3,Kedelai,April,2025, 23.00 , 12.00 ,realisasi
+11,ACEH,3,Kedelai,Mei,2025, 12.00 , 12.00 ,realisasi
+11,ACEH,3,Kedelai,Juni,2025, 20.00 , 13.00 ,realisasi
+11,ACEH,3,Kedelai,Juli,2025, 21.00 , 15.00 ,realisasi
+11,ACEH,3,Kedelai,Agustus,2025, 22.00 , 18.00 ,realisasi
+11,ACEH,3,Kedelai,September,2025, 23.00 , 23.00 ,realisasi
+11,ACEH,3,Kedelai,Oktober,2025, 32.00 , 30.00 ,realisasi
+11,ACEH,3,Kedelai,November,2025, 12.00 , 23.00 ,proyeksi
+11,ACEH,3,Kedelai,Desember,2025, 12.00 , 12.00 ,proyeksi
+11,ACEH,3,Kedelai,Januari,2024, 573.80 , -   ,realisasi
+11,ACEH,3,Kedelai,Februari,2024, 464.40 , -   ,realisasi
+11,ACEH,3,Kedelai,Maret,2024, 499.80 , -   ,realisasi
+11,ACEH,3,Kedelai,April,2024, 95.80 , -   ,realisasi
+11,ACEH,3,Kedelai,Mei,2024, 291.80 , -   ,realisasi
+11,ACEH,3,Kedelai,Juni,2024, 268.85 , -   ,realisasi
+11,ACEH,3,Kedelai,Juli,2024, 364.05 , -   ,realisasi
+11,ACEH,3,Kedelai,Agustus,2024, 250.00 , -   ,realisasi
+11,ACEH,3,Kedelai,September,2024, 100.00 , -   ,realisasi
+11,ACEH,3,Kedelai,Oktober,2024, -   , -   ,realisasi
+11,ACEH,3,Kedelai,November,2024, -   , -   ,realisasi
+11,ACEH,3,Kedelai,Desember,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Januari,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Februari,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Maret,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,April,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Mei,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Juni,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Juli,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Agustus,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,September,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Oktober,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,November,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Desember,2024, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Januari,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Februari,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Maret,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,April,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Mei,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Juni,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Juli,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Agustus,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,September,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,Oktober,2025, -   , -   ,realisasi
+12,SUMATERA UTARA,3,Kedelai,November,2025, -   , -   ,proyeksi
+12,SUMATERA UTARA,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+13,SUMATERA BARAT,3,Kedelai,Januari,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Februari,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Maret,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,April,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Mei,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Juni,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Juli,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Agustus,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,September,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Oktober,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,November,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Desember,2024, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Januari,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Februari,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Maret,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,April,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Mei,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Juni,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Juli,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Agustus,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,September,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Oktober,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,November,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Desember,2023, -   , -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Januari,2025," 3,318.72 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Februari,2025," 2,043.79 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Maret,2025," 2,262.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,April,2025," 2,189.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Mei,2025," 2,262.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Juni,2025," 2,189.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Juli,2025," 2,262.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Agustus,2025," 2,262.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,September,2025," 2,189.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,Oktober,2025," 2,262.77 ", -   ,realisasi
+13,SUMATERA BARAT,3,Kedelai,November,2025," 2,189.77 ", -   ,proyeksi
+13,SUMATERA BARAT,3,Kedelai,Desember,2025," 2,262.77 ", -   ,proyeksi
+14,RIAU,3,Kedelai,Januari,2024," 10,152.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,Februari,2024," 10,155.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,Maret,2024," 10,112.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,April,2024," 10,130.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,Mei,2024," 10,131.51 ", -   ,realisasi
+14,RIAU,3,Kedelai,Juni,2024," 10,321.50 ", -   ,realisasi
+14,RIAU,3,Kedelai,Juli,2024," 10,263.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,Agustus,2024," 10,152.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,September,2024," 10,155.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,Oktober,2024," 10,112.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,November,2024," 10,130.00 ", -   ,realisasi
+14,RIAU,3,Kedelai,Desember,2024," 10,131.51 ", -   ,realisasi
+14,RIAU,3,Kedelai,Januari,2025, 152.00 , -   ,realisasi
+14,RIAU,3,Kedelai,Februari,2025, 155.00 , -   ,realisasi
+14,RIAU,3,Kedelai,Maret,2025, 112.00 , -   ,realisasi
+14,RIAU,3,Kedelai,April,2025, 130.00 , -   ,realisasi
+14,RIAU,3,Kedelai,Mei,2025, 131.51 , -   ,realisasi
+14,RIAU,3,Kedelai,Juni,2025, 121.50 , -   ,realisasi
+14,RIAU,3,Kedelai,Juli,2025, 163.00 , -   ,proyeksi
+14,RIAU,3,Kedelai,Agustus,2025, 152.00 , -   ,proyeksi
+14,RIAU,3,Kedelai,September,2025, 155.00 , -   ,proyeksi
+14,RIAU,3,Kedelai,Oktober,2025, 112.00 , -   ,proyeksi
+14,RIAU,3,Kedelai,November,2025, 140.00 , -   ,proyeksi
+14,RIAU,3,Kedelai,Desember,2025, 131.51 , -   ,proyeksi
+15,JAMBI,3,Kedelai,Januari,2023," 1,291.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Februari,2023, 775.00 , -   ,realisasi
+15,JAMBI,3,Kedelai,Maret,2023, 987.00 , -   ,realisasi
+15,JAMBI,3,Kedelai,April,2023," 1,039.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Mei,2023," 1,059.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Juni,2023," 1,183.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Juli,2023," 1,680.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Agustus,2023," 1,176.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,September,2023," 1,286.80 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Oktober,2023, 956.00 , -   ,realisasi
+15,JAMBI,3,Kedelai,November,2023," 1,002.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Desember,2023, 998.00 , -   ,realisasi
+15,JAMBI,3,Kedelai,Januari,2025," 2,500.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Februari,2025," 2,430.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Maret,2025," 1,890.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,April,2025," 2,670.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Mei,2025," 2,260.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Juni,2025," 2,540.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Juli,2025," 2,432.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Agustus,2025," 2,520.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,September,2025," 3,050.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Oktober,2025," 3,200.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,November,2025," 2,210.00 ", -   ,proyeksi
+15,JAMBI,3,Kedelai,Desember,2025," 2,112.90 ", -   ,proyeksi
+15,JAMBI,3,Kedelai,Januari,2024," 1,291.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Februari,2024, 775.00 , -   ,realisasi
+15,JAMBI,3,Kedelai,Maret,2024, 987.00 , -   ,realisasi
+15,JAMBI,3,Kedelai,April,2024," 1,039.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Mei,2024," 1,059.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Juni,2024," 1,183.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Juli,2024," 1,680.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Agustus,2024," 1,176.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,September,2024," 1,286.80 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Oktober,2024," 2,264.10 ", -   ,realisasi
+15,JAMBI,3,Kedelai,November,2024," 1,699.00 ", -   ,realisasi
+15,JAMBI,3,Kedelai,Desember,2024," 2,112.90 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Januari,2025," 5,456.80 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Februari,2025," 4,765.31 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Maret,2025," 5,382.39 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,April,2025," 5,202.40 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Mei,2025," 5,379.86 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Juni,2025," 5,159.89 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Juli,2025," 5,379.67 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Agustus,2025," 5,841.49 ", -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,September,2025," 5,720.38 ", -   ,proyeksi
+16,SUMATERA SELATAN,3,Kedelai,Oktober,2025," 5,913.19 ", -   ,proyeksi
+16,SUMATERA SELATAN,3,Kedelai,November,2025," 5,594.18 ", -   ,proyeksi
+16,SUMATERA SELATAN,3,Kedelai,Desember,2025," 5,737.65 ", -   ,proyeksi
+16,SUMATERA SELATAN,3,Kedelai,Januari,2024, 250.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Februari,2024, 200.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Maret,2024, 200.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,April,2024, 200.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Mei,2024, 250.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Juni,2024, 200.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Juli,2024, 250.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Agustus,2024, 200.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,September,2024, 200.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Oktober,2024, 250.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,November,2024, 200.00 , -   ,realisasi
+16,SUMATERA SELATAN,3,Kedelai,Desember,2024, 200.00 , -   ,realisasi
+18,LAMPUNG,3,Kedelai,Januari,2025," 25,012.41 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Februari,2025," 27,336.96 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Maret,2025, 738.85 , -   ,realisasi
+18,LAMPUNG,3,Kedelai,April,2025," 20,028.80 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Mei,2025," 1,229.87 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Juni,2025, -   , -   ,realisasi
+18,LAMPUNG,3,Kedelai,Juli,2025, -   , -   ,realisasi
+18,LAMPUNG,3,Kedelai,Agustus,2025, -   , -   ,realisasi
+18,LAMPUNG,3,Kedelai,September,2025, -   , -   ,realisasi
+18,LAMPUNG,3,Kedelai,Oktober,2025, -   , -   ,realisasi
+18,LAMPUNG,3,Kedelai,November,2025, -   , -   ,proyeksi
+18,LAMPUNG,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+18,LAMPUNG,3,Kedelai,Januari,2023," 8,450.42 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Februari,2023," 1,183.51 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Maret,2023," 4,590.73 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,April,2023," 5,230.23 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Mei,2023," 3,710.08 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Juni,2023," 1,962.23 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Juli,2023," 2,205.28 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Agustus,2023," 3,382.33 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,September,2023, 650.28 , -   ,realisasi
+18,LAMPUNG,3,Kedelai,Oktober,2023, -   , -   ,realisasi
+18,LAMPUNG,3,Kedelai,November,2023, 940.98 , -   ,realisasi
+18,LAMPUNG,3,Kedelai,Desember,2023," 4,125.23 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Januari,2024," 7,120.24 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Februari,2024," 4,284.43 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Maret,2024," 3,362.62 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,April,2024," 5,262.37 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Mei,2024," 6,555.99 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Juni,2024," 5,842.32 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Juli,2024," 6,558.44 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Agustus,2024," 6,362.17 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,September,2024," 5,811.62 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Oktober,2024," 6,562.84 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,November,2024," 5,952.17 ", -   ,realisasi
+18,LAMPUNG,3,Kedelai,Desember,2024," 6,516.84 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Januari,2024, 604.03 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Februari,2024, 565.06 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Maret,2024, 604.03 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,April,2024, 584.55 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Mei,2024, 604.03 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Juni,2024, 584.55 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Juli,2024, 604.03 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Agustus,2024, 604.03 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,September,2024, 584.55 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Oktober,2024, 604.03 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,November,2024, 584.55 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Desember,2024, 604.03 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Januari,2025, 328.00 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Februari,2025, 473.27 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Maret,2025, 744.80 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,April,2025, 615.44 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Mei,2025, 616.27 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Juni,2025, 596.39 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Juli,2025, 561.84 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Agustus,2025, 561.84 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,September,2025, 543.72 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Oktober,2025, 561.84 , -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,November,2025, 507.08 , -   ,proyeksi
+19,BANGKA BELITUNG,3,Kedelai,Desember,2025, 523.98 , -   ,proyeksi
+19,BANGKA BELITUNG,3,Kedelai,Januari,2023," 1,202.15 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Februari,2023," 1,085.81 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Maret,2023," 1,202.15 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,April,2023," 1,163.37 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Mei,2023," 1,202.15 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Juni,2023," 1,163.37 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Juli,2023," 1,202.15 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Agustus,2023," 1,202.15 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,September,2023," 1,163.37 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Oktober,2023," 1,202.15 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,November,2023," 1,163.37 ", -   ,realisasi
+19,BANGKA BELITUNG,3,Kedelai,Desember,2023," 1,202.15 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Januari,2024," 1,982.00 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Februari,2024," 1,381.30 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Maret,2024," 1,419.25 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,April,2024," 1,337.40 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Mei,2024," 1,031.50 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Juni,2024, 957.53 , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Juli,2024," 1,243.73 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Agustus,2024," 1,211.40 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,September,2024," 1,670.00 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Oktober,2024," 1,059.40 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,November,2024," 1,013.80 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Desember,2024, 941.00 , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Januari,2025, 410.25 , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Februari,2025, 418.80 , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Maret,2025," 1,002.46 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,April,2025, 848.49 , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Mei,2025," 1,072.09 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Juni,2025, 927.27 , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Juli,2025," 1,236.10 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Agustus,2025," 1,749.73 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,September,2025," 1,314.26 ", -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Oktober,2025, 635.64 , -   ,proyeksi
+21,KEPULAUAN RIAU,3,Kedelai,November,2025, 608.28 , -   ,proyeksi
+21,KEPULAUAN RIAU,3,Kedelai,Desember,2025," 1,129.20 ", -   ,proyeksi
+21,KEPULAUAN RIAU,3,Kedelai,Januari,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Februari,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Maret,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,April,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Mei,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Juni,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Juli,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Agustus,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,September,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Oktober,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,November,2023, -   , -   ,realisasi
+21,KEPULAUAN RIAU,3,Kedelai,Desember,2023, -   , -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Januari,2025," 36,566.60 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Februari,2025," 33,945.20 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Maret,2025," 31,113.20 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,April,2025," 40,095.40 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Mei,2025," 35,656.00 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Juni,2025," 34,515.00 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Juli,2025," 34,130.80 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Agustus,2025," 38,167.40 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,September,2025," 26,376.20 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,Oktober,2025," 22,189.20 ", -   ,realisasi
+31,DKI JAKATA,3,Kedelai,November,2025," 17,287.80 ", -   ,proyeksi
+31,DKI JAKATA,3,Kedelai,Desember,2025," 28,443.20 ", -   ,proyeksi
+32,JAWA BARAT,3,Kedelai,Januari,2025," 27,194.87 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Februari,2025," 24,562.55 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Maret,2025," 27,193.08 ", 0.54 ,realisasi
+32,JAWA BARAT,3,Kedelai,April,2025," 26,320.12 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Mei,2025," 27,207.28 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Juni,2025," 26,316.08 ", 0.65 ,realisasi
+32,JAWA BARAT,3,Kedelai,Juli,2025," 27,213.36 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Agustus,2025," 27,198.20 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,September,2025," 27,861.08 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Oktober,2025," 30,396.88 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,November,2025," 30,396.88 ", -   ,proyeksi
+32,JAWA BARAT,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+32,JAWA BARAT,3,Kedelai,Januari,2023," 62,800.82 ", 1.68 ,realisasi
+32,JAWA BARAT,3,Kedelai,Februari,2023," 57,035.42 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Maret,2023," 62,946.84 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,April,2023," 60,639.47 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Mei,2023," 62,655.65 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Juni,2023," 60,675.33 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Juli,2023," 62,758.47 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Agustus,2023," 62,651.42 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,September,2023," 60,695.49 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Oktober,2023," 62,735.57 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,November,2023," 60,639.47 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Desember,2023," 62,676.80 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Januari,2024," 88,027.96 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Februari,2024," 64,693.78 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Maret,2024," 75,626.11 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,April,2024," 65,636.11 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Mei,2024," 65,636.11 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Juni,2024," 65,636.11 ", -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Juli,2024, -   , -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Agustus,2024, -   , -   ,realisasi
+32,JAWA BARAT,3,Kedelai,September,2024, -   , -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Oktober,2024, -   , -   ,realisasi
+32,JAWA BARAT,3,Kedelai,November,2024, -   , -   ,realisasi
+32,JAWA BARAT,3,Kedelai,Desember,2024, -   , -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Januari,2024," 41,783.00 ", 135.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Februari,2024," 45,829.00 ", 139.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Maret,2024," 27,141.00 ", 140.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,April,2024," 30,551.00 ", 106.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Mei,2024," 56,594.00 ", 130.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Juni,2024," 54,956.00 ", 117.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Juli,2024," 36,604.00 ", 98.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Agustus,2024," 74,626.00 ", 154.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,September,2024," 60,414.00 ", 131.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Oktober,2024," 2,955.00 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,November,2024," 28,216.00 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Desember,2024," 530,377.00 ", 53.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Januari,2023," 17,163.39 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Februari,2023," 26,769.42 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Maret,2023," 29,473.19 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,April,2023," 28,460.97 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Mei,2023," 27,620.22 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Juni,2023," 28,663.70 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Juli,2023," 25,408.32 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Agustus,2023," 17,907.72 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,September,2023," 20,919.15 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,Oktober,2023," 28,772.49 ", -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,November,2023," 31,931.50 ", 50.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Desember,2023," 31,222.26 ", 70.00 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Januari,2025," 45,882.89 ", 218.90 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Februari,2025," 80,761.82 ", 181.74 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Maret,2025," 35,247.14 ", 155.07 ,realisasi
+33,JAWA TENGAH,3,Kedelai,April,2025," 15,599.54 ", 85.67 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Mei,2025," 29,144.39 ", 102.98 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Juni,2025," 25,074.27 ", 148.50 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Juli,2025," 51,708.00 ", 249.07 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Agustus,2025," 40,110.32 ", 113.79 ,realisasi
+33,JAWA TENGAH,3,Kedelai,September,2025," 48,752.87 ", 192.47 ,realisasi
+33,JAWA TENGAH,3,Kedelai,Oktober,2025, -   , -   ,realisasi
+33,JAWA TENGAH,3,Kedelai,November,2025, -   , -   ,proyeksi
+33,JAWA TENGAH,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+34,DI YOGYAKARTA,3,Kedelai,Januari,2025," 2,150.00 ", 128.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Februari,2025," 2,400.00 ", 154.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Maret,2025," 2,540.00 ", 200.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,April,2025," 2,360.00 ", 200.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Mei,2025," 2,500.00 ", 180.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Juni,2025," 2,500.00 ", 170.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Juli,2025," 2,500.00 ", 170.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Agustus,2025," 2,500.00 ", 150.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,September,2025," 2,500.00 ", 150.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Oktober,2025," 2,500.00 ", 170.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,November,2025," 2,500.00 ", 160.00 ,proyeksi
+34,DI YOGYAKARTA,3,Kedelai,Desember,2025," 2,500.00 ", 155.00 ,proyeksi
+34,DI YOGYAKARTA,3,Kedelai,Januari,2023," 1,150.00 ", 66.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Februari,2023, 800.00 , 68.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Maret,2023, 950.00 , 63.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,April,2023, 900.00 , 83.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Mei,2023," 1,050.00 ", 70.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Juni,2023," 1,200.00 ", 82.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Juli,2023," 1,000.00 ", 70.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Agustus,2023," 1,000.00 ", 79.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,September,2023," 1,500.00 ", 88.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Oktober,2023," 1,200.00 ", 105.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,November,2023," 1,500.00 ", 115.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Desember,2023," 3,500.00 ", 125.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Januari,2024," 6,786.00 ", 72.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Februari,2024," 6,788.00 ", 71.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Maret,2024," 6,500.00 ", 69.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,April,2024," 6,598.00 ", 93.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Mei,2024," 6,602.00 ", 80.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Juni,2024," 6,597.00 ", 98.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Juli,2024," 6,607.00 ", 82.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Agustus,2024," 6,581.00 ", 79.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,September,2024," 6,624.00 ", 98.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Oktober,2024," 6,529.00 ", 108.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,November,2024," 6,250.00 ", 120.00 ,realisasi
+34,DI YOGYAKARTA,3,Kedelai,Desember,2024," 6,429.00 ", 129.00 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Januari,2024," 94,697.13 "," 9,423.03 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Februari,2024," 46,567.26 "," 7,361.65 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Maret,2024," 101,382.60 "," 11,827.20 ",realisasi
+35,JAWA TIMUR,3,Kedelai,April,2024," 84,132.70 "," 5,363.20 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Mei,2024," 61,361.00 "," 9,698.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Juni,2024," 96,445.00 "," 9,054.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Juli,2024," 84,484.50 ", 298.20 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Agustus,2024," 84,130.17 "," 8,371.88 ",realisasi
+35,JAWA TIMUR,3,Kedelai,September,2024," 108,647.47 "," 4,535.43 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Oktober,2024," 59,115.00 "," 5,330.60 ",realisasi
+35,JAWA TIMUR,3,Kedelai,November,2024," 532,059.00 "," 8,748.90 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Desember,2024," 60,069.99 "," 5,097.78 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Januari,2025," 260,347.00 "," 7,766.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Februari,2025," 318,623.50 "," 9,204.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Maret,2025," 26,486.00 "," 6,493.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,April,2025," 120,725.00 "," 6,605.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Mei,2025," 39,500.00 "," 11,542.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Juni,2025," 77,687.44 "," 8,071.15 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Juli,2025," 90,345.90 "," 12,194.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Agustus,2025," 75,057.00 "," 13,344.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,September,2025," 54,566.00 "," 9,901.00 ",realisasi
+35,JAWA TIMUR,3,Kedelai,Oktober,2025," 66,215.20 "," 12,038.60 ",realisasi
+35,JAWA TIMUR,3,Kedelai,November,2025, -   , -   ,proyeksi
+35,JAWA TIMUR,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+35,JAWA TIMUR,3,Kedelai,Januari,2023," 56,511.87 ", 199.60 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Februari,2023," 40,857.24 ", 245.51 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Maret,2023," 103,850.26 ", 61.00 ,realisasi
+35,JAWA TIMUR,3,Kedelai,April,2023," 101,298.25 ", 202.50 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Mei,2023," 59,992.59 ", 255.61 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Juni,2023," 93,842.61 ", 46.30 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Juli,2023," 50,240.45 ", 258.30 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Agustus,2023," 29,275.90 ", 67.05 ,realisasi
+35,JAWA TIMUR,3,Kedelai,September,2023," 38,899.25 ", 97.00 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Oktober,2023," 75,423.10 ", 165.00 ,realisasi
+35,JAWA TIMUR,3,Kedelai,November,2023," 19,652.21 ", 260.55 ,realisasi
+35,JAWA TIMUR,3,Kedelai,Desember,2023," 60,069.99 "," 5,097.78 ",realisasi
+36,BANTEN,3,Kedelai,Januari,2024," 7,115.29 ", 19.24 ,realisasi
+36,BANTEN,3,Kedelai,Februari,2024," 7,084.70 ", 47.94 ,realisasi
+36,BANTEN,3,Kedelai,Maret,2024," 7,793.52 ", 20.80 ,realisasi
+36,BANTEN,3,Kedelai,April,2024," 7,463.38 ", 35.35 ,realisasi
+36,BANTEN,3,Kedelai,Mei,2024," 7,966.99 ", 21.99 ,realisasi
+36,BANTEN,3,Kedelai,Juni,2024," 7,764.91 ", 36.53 ,realisasi
+36,BANTEN,3,Kedelai,Juli,2024," 7,992.03 ", 22.96 ,realisasi
+36,BANTEN,3,Kedelai,Agustus,2024," 8,071.55 ", 23.57 ,realisasi
+36,BANTEN,3,Kedelai,September,2024," 7,846.03 ", 38.36 ,realisasi
+36,BANTEN,3,Kedelai,Oktober,2024," 9,099.02 ", 24.82 ,realisasi
+36,BANTEN,3,Kedelai,November,2024," 8,243.90 ", 39.44 ,realisasi
+36,BANTEN,3,Kedelai,Desember,2024," 7,562.02 ", 26.12 ,realisasi
+36,BANTEN,3,Kedelai,Januari,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Februari,2023," 10,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Maret,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,April,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Mei,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Juni,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Juli,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Agustus,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,September,2023," 10,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Oktober,2023," 11,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,November,2023," 11,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Desember,2023," 12,000.00 ", -   ,realisasi
+36,BANTEN,3,Kedelai,Januari,2025," 7,115.29 ", 19.24 ,realisasi
+36,BANTEN,3,Kedelai,Februari,2025," 7,084.70 ", 47.94 ,realisasi
+36,BANTEN,3,Kedelai,Maret,2025," 7,793.52 ", 20.80 ,realisasi
+36,BANTEN,3,Kedelai,April,2025," 7,863.38 ", 35.35 ,realisasi
+36,BANTEN,3,Kedelai,Mei,2025," 8,066.99 ", 21.99 ,realisasi
+36,BANTEN,3,Kedelai,Juni,2025," 7,864.91 ", 36.53 ,realisasi
+36,BANTEN,3,Kedelai,Juli,2025," 8,092.03 ", 22.96 ,realisasi
+36,BANTEN,3,Kedelai,Agustus,2025," 8,171.55 ", 23.57 ,realisasi
+36,BANTEN,3,Kedelai,September,2025," 7,846.03 ", 38.36 ,realisasi
+36,BANTEN,3,Kedelai,Oktober,2025," 8,099.02 ", 24.82 ,proyeksi
+36,BANTEN,3,Kedelai,November,2025," 8,243.90 ", 39.44 ,proyeksi
+36,BANTEN,3,Kedelai,Desember,2025," 7,762.02 ", 26.12 ,proyeksi
+51,BALI,3,Kedelai,September,2024," 1,433.23 ", -   ,realisasi
+51,BALI,3,Kedelai,Oktober,2024," 2,105.92 ", -   ,realisasi
+51,BALI,3,Kedelai,November,2024," 2,146.25 ", -   ,realisasi
+51,BALI,3,Kedelai,Desember,2024," 1,913.63 ", -   ,realisasi
+51,BALI,3,Kedelai,Januari,2024," 1,857.63 ", -   ,realisasi
+51,BALI,3,Kedelai,Februari,2024," 1,672.83 ", -   ,realisasi
+51,BALI,3,Kedelai,Maret,2024," 1,613.63 ", -   ,realisasi
+51,BALI,3,Kedelai,April,2024," 1,653.63 ", -   ,realisasi
+51,BALI,3,Kedelai,Mei,2024," 1,570.63 ", -   ,realisasi
+51,BALI,3,Kedelai,Juni,2024," 1,708.63 ", -   ,realisasi
+51,BALI,3,Kedelai,Juli,2024," 1,853.83 ", -   ,realisasi
+51,BALI,3,Kedelai,Agustus,2024, 799.63 , -   ,realisasi
+51,BALI,3,Kedelai,Januari,2023," 2,708.16 ", -   ,realisasi
+51,BALI,3,Kedelai,Februari,2023," 2,448.21 ", -   ,realisasi
+51,BALI,3,Kedelai,Maret,2023," 2,723.89 ", -   ,realisasi
+51,BALI,3,Kedelai,April,2023," 2,633.52 ", -   ,realisasi
+51,BALI,3,Kedelai,Mei,2023," 2,722.08 ", -   ,realisasi
+51,BALI,3,Kedelai,Juni,2023," 2,624.77 ", -   ,realisasi
+51,BALI,3,Kedelai,Juli,2023," 2,721.91 ", -   ,realisasi
+51,BALI,3,Kedelai,Agustus,2023," 2,729.56 ", -   ,realisasi
+51,BALI,3,Kedelai,September,2023," 2,624.17 ", -   ,realisasi
+51,BALI,3,Kedelai,Oktober,2023," 2,709.87 ", -   ,realisasi
+51,BALI,3,Kedelai,November,2023," 2,627.91 ", -   ,realisasi
+51,BALI,3,Kedelai,Desember,2023," 2,715.75 ", -   ,realisasi
+51,BALI,3,Kedelai,Januari,2025," 2,186.09 ", -   ,realisasi
+51,BALI,3,Kedelai,Februari,2025," 2,141.52 ", -   ,realisasi
+51,BALI,3,Kedelai,Maret,2025," 2,100.00 ", -   ,realisasi
+51,BALI,3,Kedelai,April,2025," 2,158.74 ", -   ,realisasi
+51,BALI,3,Kedelai,Mei,2025," 2,185.32 ", -   ,realisasi
+51,BALI,3,Kedelai,Juni,2025," 1,803.92 ", -   ,realisasi
+51,BALI,3,Kedelai,Juli,2025," 2,072.00 ", -   ,realisasi
+51,BALI,3,Kedelai,Agustus,2025," 2,278.39 ", -   ,realisasi
+51,BALI,3,Kedelai,September,2025," 2,150.00 ", -   ,realisasi
+51,BALI,3,Kedelai,Oktober,2025," 1,927.00 ", -   ,realisasi
+51,BALI,3,Kedelai,November,2025," 1,530.00 ", -   ,proyeksi
+51,BALI,3,Kedelai,Desember,2025," 2,373.00 ", -   ,proyeksi
+52,NUSA TENGGARA BARAT,3,Kedelai,Januari,2024, 127.00 , 0.08 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Februari,2024, -   , 0.08 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Maret,2024, 5.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,April,2024, 50.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Mei,2024, 186.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Juni,2024, 162.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Juli,2024, 268.00 , 62.67 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Agustus,2024, 97.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,September,2024, 90.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Oktober,2024, 46.00 , 40.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,November,2024, 70.00 , 25.10 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Desember,2024," 1,870.00 ", 222.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Januari,2025," 70,000.00 ", 70.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Februari,2025, 47.50 , 95.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Maret,2025, 180.00 , 70.32 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,April,2025, 209.40 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Mei,2025, 176.50 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Juni,2025, 4.40 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Juli,2025," 1,287.00 ", -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Agustus,2025," 1,403.50 ", -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,September,2025," 1,404.70 ", 20.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Oktober,2025, 46.00 , 40.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,November,2025, 70.00 , 25.10 ,proyeksi
+52,NUSA TENGGARA BARAT,3,Kedelai,Desember,2025, 18.00 , 222.00 ,proyeksi
+52,NUSA TENGGARA BARAT,3,Kedelai,Januari,2023, -   , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Februari,2023, -   , 1.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Maret,2023, 460.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,April,2023, 660.00 , 10.00 ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Mei,2023, 460.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Juni,2023," 1,150.00 ", -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Juli,2023," 1,380.00 ", -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Agustus,2023, 460.00 , -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,September,2023," 1,780.00 ", -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Oktober,2023," 1,780.00 ", -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,November,2023," 2,780.00 ", -   ,realisasi
+52,NUSA TENGGARA BARAT,3,Kedelai,Desember,2023," 1,780.00 ", -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Januari,2024, 233.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Februari,2024, 300.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Maret,2024, 412.45 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,April,2024, 299.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Mei,2024, 193.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Juni,2024, 100.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Juli,2024, 279.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Agustus,2024, 490.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,September,2024, 100.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Oktober,2024, 95.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,November,2024, 143.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Desember,2024, 323.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Januari,2023, 87.50 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Februari,2023, 99.25 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Maret,2023, 200.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,April,2023, 237.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Mei,2023, 388.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Juni,2023," 1,015.08 ", -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Juli,2023, 255.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Agustus,2023, 150.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,September,2023, 318.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Oktober,2023, 450.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,November,2023, 275.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Desember,2023, 116.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Januari,2025, 323.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Februari,2025, 215.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Maret,2025, 332.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,April,2025, 313.00 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Mei,2025, 506.10 , -   ,realisasi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Juni,2025, 100.00 , -   ,proyeksi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Juli,2025, 279.00 , -   ,proyeksi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Agustus,2025, 490.00 , -   ,proyeksi
+53,NUSA TENGGARA TIMUR,3,Kedelai,September,2025, 100.00 , -   ,proyeksi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Oktober,2025, 95.00 , -   ,proyeksi
+53,NUSA TENGGARA TIMUR,3,Kedelai,November,2025, 143.00 , -   ,proyeksi
+53,NUSA TENGGARA TIMUR,3,Kedelai,Desember,2025, 323.00 , -   ,proyeksi
+61,KALIMANTAN BARAT,3,Kedelai,Januari,2025, 668.76 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Februari,2025, 640.84 , 0.02 ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Maret,2025, 933.01 , 17.89 ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,April,2025," 1,617.17 ", -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Mei,2025," 1,074.55 ", 21.23 ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Juni,2025," 3,251.05 ", 0.21 ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Juli,2025, 587.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Agustus,2025," 1,313.40 ", -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,September,2025," 1,177.50 ", -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Oktober,2025, 148.97 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,November,2025, 390.00 , -   ,proyeksi
+61,KALIMANTAN BARAT,3,Kedelai,Desember,2025," 1,020.10 ", -   ,proyeksi
+61,KALIMANTAN BARAT,3,Kedelai,Januari,2024, 735.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Februari,2024, 436.40 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Maret,2024, 560.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,April,2024, 687.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Mei,2024, 409.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Juni,2024, 54.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Juli,2024, 121.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Agustus,2024, 90.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,September,2024, 115.55 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Oktober,2024, 148.97 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,November,2024, 390.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Desember,2024," 1,020.10 ", -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Januari,2023," 1,228.30 ", -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Februari,2023, 557.70 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Maret,2023, 514.96 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,April,2023, 298.90 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Mei,2023, 729.90 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Juni,2023, 595.80 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Juli,2023, 311.20 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Agustus,2023, 585.90 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,September,2023, 854.50 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Oktober,2023, 525.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,November,2023, 515.00 , -   ,realisasi
+61,KALIMANTAN BARAT,3,Kedelai,Desember,2023," 1,020.10 ", -   ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Januari,2025," 1,311.53 ", 82.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Februari,2025," 1,363.03 ", 115.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Maret,2025," 1,403.00 ", 104.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,April,2025," 1,572.00 ", 142.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Mei,2025," 1,774.00 ", 140.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Juni,2025," 1,280.00 ", 201.11 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Juli,2025," 1,896.00 ", 143.10 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Agustus,2025," 1,605.17 ", 113.09 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,September,2025," 1,804.00 ", 19.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Oktober,2025," 1,217.20 ", 13.60 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,November,2025," 1,632.95 ", 131.21 ,proyeksi
+62,KALIMANTAN TENGAH,3,Kedelai,Desember,2025," 1,617.13 ", 125.13 ,proyeksi
+62,KALIMANTAN TENGAH,3,Kedelai,Januari,2024," 1,311.53 ", 82.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Februari,2024," 1,363.03 ", 115.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Maret,2024," 1,403.47 ", 104.00 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,April,2024," 1,552.87 ", 139.90 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Mei,2024," 1,377.96 ", 198.65 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Juni,2024," 1,427.89 ", 123.65 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Juli,2024," 1,532.00 ", 141.35 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Agustus,2024," 1,585.50 ", 111.70 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,September,2024," 1,496.68 ", 112.60 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Oktober,2024," 1,534.45 ", 117.60 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,November,2024," 1,612.94 ", 129.60 ,realisasi
+62,KALIMANTAN TENGAH,3,Kedelai,Desember,2024," 1,597.32 ", 123.60 ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Januari,2023," 10,414.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Februari,2023," 11,361.60 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Maret,2023," 5,772.60 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,April,2023," 4,560.60 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Mei,2023," 3,389.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Juni,2023," 2,342.65 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Juli,2023," 3,087.65 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Agustus,2023," 3,071.65 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,September,2023," 3,324.05 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Oktober,2023," 4,364.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,November,2023, 385.00 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Desember,2023," 1,380.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Januari,2024, 866.00 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Februari,2024, 712.00 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Maret,2024, 914.60 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,April,2024," 2,412.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Mei,2024," 2,281.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Juni,2024," 1,044.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Juli,2024, 928.00 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Agustus,2024," 1,010.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,September,2024, 706.00 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Oktober,2024," 1,150.00 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,November,2024, 678.00 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Desember,2024, 934.00 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Januari,2025," 4,086.96 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Februari,2025," 2,606.70 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Maret,2025, 986.59 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,April,2025," 2,385.69 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Mei,2025," 2,302.59 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Juni,2025, 810.53 , -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Juli,2025," 5,902.34 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Agustus,2025," 2,591.92 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,September,2025," 1,677.20 ", -   ,realisasi
+63,KALIMANTAN SELATAN,3,Kedelai,Oktober,2025, -   , -   ,proyeksi
+63,KALIMANTAN SELATAN,3,Kedelai,November,2025, -   , -   ,proyeksi
+63,KALIMANTAN SELATAN,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+64,KALIMANTAN TIMUR,3,Kedelai,Januari,2023, 185.53 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Februari,2023, 234.89 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Maret,2023, 0.29 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,April,2023, 2.47 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Mei,2023, 291.16 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Juni,2023, 0.36 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Juli,2023, 211.82 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Agustus,2023, 0.21 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,September,2023, 1.66 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Oktober,2023, 264.82 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,November,2023, 0.40 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Desember,2023, 2.13 , -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Januari,2025," 3,393.01 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Februari,2025," 3,456.06 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Maret,2025," 3,321.77 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,April,2025," 1,694.00 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Mei,2025," 2,186.00 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Juni,2025," 2,696.00 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Juli,2025," 3,281.00 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Agustus,2025," 3,284.00 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,September,2025," 2,883.00 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Oktober,2025," 3,102.24 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,November,2025," 3,122.80 ", -   ,proyeksi
+64,KALIMANTAN TIMUR,3,Kedelai,Desember,2025," 3,108.00 ", -   ,proyeksi
+64,KALIMANTAN TIMUR,3,Kedelai,Januari,2024," 4,190.73 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Februari,2024," 3,933.88 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Maret,2024," 4,058.42 ", 1.28 ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,April,2024," 3,892.83 ", 6.76 ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Mei,2024," 4,279.17 ", 3.42 ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Juni,2024," 3,823.15 ", 2.60 ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Juli,2024," 4,035.96 ", 0.37 ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Agustus,2024," 4,100.78 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,September,2024," 4,018.83 ", 0.71 ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Oktober,2024," 3,970.07 ", -   ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,November,2024," 3,822.47 ", 1.42 ,realisasi
+64,KALIMANTAN TIMUR,3,Kedelai,Desember,2024," 4,210.18 ", -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Januari,2025, 389.07 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Februari,2025, 355.34 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Maret,2025, 398.12 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,April,2025, 366.53 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,Mei,2025, 352.68 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,Juni,2025, 324.59 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,Juli,2025, 357.13 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,Agustus,2025, 315.86 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,September,2025, 310.34 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,Oktober,2025, 260.21 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,November,2025, 419.37 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,Desember,2025, 436.09 , -   ,proyeksi
+65,KALIMANTAN UTARA,3,Kedelai,Januari,2024, 278.13 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Februari,2024, 210.68 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Maret,2024, 310.31 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,April,2024, 266.53 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Mei,2024, 234.25 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Juni,2024, 374.75 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Juli,2024, 234.26 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Agustus,2024, 351.72 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,September,2024, 140.67 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Oktober,2024, 115.50 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,November,2024, 366.63 , -   ,realisasi
+65,KALIMANTAN UTARA,3,Kedelai,Desember,2024, 598.89 , -   ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Januari,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Februari,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Maret,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,April,2025," 1,500.00 ", 40.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Mei,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Juni,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Juli,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Agustus,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,September,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Oktober,2025," 1,500.00 ", 45.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,November,2025," 1,500.00 ", 45.00 ,proyeksi
+71,SULAWESI UTARA,3,Kedelai,Desember,2025," 1,500.00 ", 45.00 ,proyeksi
+71,SULAWESI UTARA,3,Kedelai,Januari,2024, 65.00 , 12.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Februari,2024, 65.00 , 20.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Maret,2024, 55.00 , 21.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,April,2024, 60.00 , 22.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Mei,2024, 55.00 , 24.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Juni,2024, 52.00 , 23.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Juli,2024, 51.00 , 25.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Agustus,2024, 51.00 , 23.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,September,2024, 52.00 , 24.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Oktober,2024, 54.00 , 25.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,November,2024, 55.00 , 15.00 ,realisasi
+71,SULAWESI UTARA,3,Kedelai,Desember,2024, 52.00 , 25.00 ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Januari,2025, 875.80 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Februari,2025, 307.84 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Maret,2025, 3.70 , 3.46 ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,April,2025," 1,004.58 ", -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Mei,2025, 293.98 , 3.70 ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Juni,2025, 282.24 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Juli,2025, 621.68 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Agustus,2025, 10.70 , 3.28 ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,September,2025, 584.50 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Oktober,2025," 1,007.36 ", -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,November,2025, -   , -   ,proyeksi
+72,SULAWESI TENGAH,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+72,SULAWESI TENGAH,3,Kedelai,Januari,2024, 253.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Februari,2024, 276.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Maret,2024, 319.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,April,2024, 46.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Mei,2024, 322.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Juni,2024, 43.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Juli,2024, -   , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Agustus,2024, 211.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,September,2024, -   , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Oktober,2024, 95.00 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,November,2024, 437.50 , -   ,realisasi
+72,SULAWESI TENGAH,3,Kedelai,Desember,2024, 322.00 , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Januari,2025," 2,445.34 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Februari,2025, 936.43 , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Maret,2025, 554.84 , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,April,2025," 2,021.71 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Mei,2025," 3,227.73 ", 10.00 ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Juni,2025," 1,000.00 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Juli,2025, 10.28 , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Agustus,2025," 1,000.00 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,September,2025," 1,111.79 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Oktober,2025," 1,081.00 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,November,2025, 461.74 , 2.50 ,proyeksi
+73,SULAWESI SELATAN,3,Kedelai,Desember,2025," 4,275.00 ", -   ,proyeksi
+73,SULAWESI SELATAN,3,Kedelai,Januari,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Februari,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Maret,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,April,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Mei,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Juni,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Juli,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Agustus,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,September,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Oktober,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,November,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Desember,2023, -   , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Januari,2024," 1,527.70 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Februari,2024," 2,873.91 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Maret,2024, 861.33 , -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,April,2024," 2,020.00 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Mei,2024," 3,266.19 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Juni,2024," 2,261.59 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Juli,2024," 2,435.40 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Agustus,2024," 2,843.75 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,September,2024," 2,857.50 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Oktober,2024," 1,296.00 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,November,2024," 2,719.00 ", -   ,realisasi
+73,SULAWESI SELATAN,3,Kedelai,Desember,2024," 1,884.00 ", -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Januari,2024, -   , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Februari,2024, -   , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Maret,2024, -   , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,April,2024, 405.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Mei,2024, 836.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Juni,2024, 851.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Juli,2024, 943.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Agustus,2024, 935.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,September,2024, 875.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Januari,2025, 962.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Februari,2025, 785.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Maret,2025, 954.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,April,2025, 842.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Mei,2025," 1,162.00 ", -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Juni,2025, 905.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Juli,2025, 947.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Agustus,2025, 924.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,September,2025, 735.00 , -   ,proyeksi
+74,SULAWESI TENGGARA,3,Kedelai,Oktober,2025, -   , -   ,proyeksi
+74,SULAWESI TENGGARA,3,Kedelai,November,2025, -   , -   ,proyeksi
+74,SULAWESI TENGGARA,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+74,SULAWESI TENGGARA,3,Kedelai,Oktober,2024, 983.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,November,2024, 870.00 , -   ,realisasi
+74,SULAWESI TENGGARA,3,Kedelai,Desember,2024, 966.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Januari,2025, 185.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Februari,2025, 185.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Maret,2025, 92.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,April,2025, 46.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Mei,2025, 46.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Juni,2025, 141.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Juli,2025, 69.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Agustus,2025, 252.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,September,2025, 105.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Oktober,2025, 121.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,November,2025, 78.00 , -   ,proyeksi
+75,GORONTALO,3,Kedelai,Desember,2025, 35.00 , -   ,proyeksi
+75,GORONTALO,3,Kedelai,Januari,2023, 100.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Februari,2023, 64.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Maret,2023, -   , -   ,realisasi
+75,GORONTALO,3,Kedelai,April,2023, 14.42 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Mei,2023, -   , -   ,realisasi
+75,GORONTALO,3,Kedelai,Juni,2023, 42.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Juli,2023, 40.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Agustus,2023, 67.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,September,2023, 40.00 , 0.97 ,realisasi
+75,GORONTALO,3,Kedelai,Oktober,2023, 42.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,November,2023, 84.00 , 1.08 ,realisasi
+75,GORONTALO,3,Kedelai,Desember,2023, 46.00 , 1.15 ,realisasi
+75,GORONTALO,3,Kedelai,Januari,2024, 253.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Februari,2024, 161.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Maret,2024, 184.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,April,2024, 115.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Mei,2024, 230.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Juni,2024, 253.00 , 1.92 ,realisasi
+75,GORONTALO,3,Kedelai,Juli,2024, 299.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Agustus,2024, 56.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,September,2024, 156.08 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Oktober,2024, 184.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,November,2024, 138.00 , -   ,realisasi
+75,GORONTALO,3,Kedelai,Desember,2024, 55.65 , 0.25 ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Januari,2025, 533.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Februari,2025, 496.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Maret,2025, 479.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,April,2025, 524.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Mei,2025, 515.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Juni,2025, 567.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Juli,2025, 559.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Agustus,2025, 542.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,September,2025, 510.00 , -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Oktober,2025, 432.00 , -   ,proyeksi
+76,SULAWESI BARAT,3,Kedelai,November,2025, 580.00 , -   ,proyeksi
+76,SULAWESI BARAT,3,Kedelai,Desember,2025, 543.00 , -   ,proyeksi
+76,SULAWESI BARAT,3,Kedelai,Januari,2024," 1,330.00 ", -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Februari,2024," 1,215.00 ", -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Maret,2024," 1,340.00 ", -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,April,2024," 1,301.00 ", -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Mei,2024," 1,340.00 ", -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Juni,2024," 1,305.00 ", -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Juli,2024," 1,342.00 ", -   ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Agustus,2024, 6.65 ," 1,255.00 ",realisasi
+76,SULAWESI BARAT,3,Kedelai,September,2024, 1.90 ," 1,057.00 ",realisasi
+76,SULAWESI BARAT,3,Kedelai,Oktober,2024, 106.40 ," 1,075.00 ",realisasi
+76,SULAWESI BARAT,3,Kedelai,November,2024, 17.10 , 988.00 ,realisasi
+76,SULAWESI BARAT,3,Kedelai,Desember,2024, 16.15 , 975.00 ,realisasi
+81,MALUKU,3,Kedelai,Januari,2023, 260.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Februari,2023, 312.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Maret,2023, 124.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,April,2023, 322.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Mei,2023, 109.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Juni,2023, 228.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Juli,2023, 128.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Agustus,2023, 130.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,September,2023, 129.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Oktober,2023, 264.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,November,2023, -   , -   ,realisasi
+81,MALUKU,3,Kedelai,Desember,2023, -   , -   ,realisasi
+81,MALUKU,3,Kedelai,Januari,2024, -   , -   ,realisasi
+81,MALUKU,3,Kedelai,Februari,2024, 50.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Maret,2024, 102.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,April,2024, 68.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Mei,2024, 128.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Juni,2024, 85.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Juli,2024, 155.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Agustus,2024, 25.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,September,2024, 72.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Oktober,2024, 103.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,November,2024, 104.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Desember,2024, 95.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Januari,2025, 27.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Februari,2025, 80.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Maret,2025, 93.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,April,2025, 89.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Mei,2025, 105.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Juni,2025, 47.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Juli,2025, 77.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,Agustus,2025, 61.00 , -   ,realisasi
+81,MALUKU,3,Kedelai,September,2025, -   , -   ,proyeksi
+81,MALUKU,3,Kedelai,Oktober,2025, -   , -   ,proyeksi
+81,MALUKU,3,Kedelai,November,2025, -   , -   ,proyeksi
+81,MALUKU,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+82,MALUKU UTARA,3,Kedelai,Januari,2025, 351.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Februari,2025, 356.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Maret,2025, 352.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,April,2025, 399.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Mei,2025, 354.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Juni,2025, 313.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Juli,2025, 286.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Agustus,2025, 288.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,September,2025, 340.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Oktober,2025, 161.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,November,2025, 228.80 , -   ,proyeksi
+82,MALUKU UTARA,3,Kedelai,Desember,2025, 251.90 , -   ,proyeksi
+82,MALUKU UTARA,3,Kedelai,Januari,2024, 79.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Februari,2024, 99.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Maret,2024, 115.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,April,2024, 152.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Mei,2024, 92.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Juni,2024, 92.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Juli,2024, 122.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Agustus,2024, 69.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,September,2024, 23.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Oktober,2024, 155.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,November,2024, 208.00 , -   ,realisasi
+82,MALUKU UTARA,3,Kedelai,Desember,2024, 229.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Januari,2025, 161.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Februari,2025, 92.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Maret,2025, 161.25 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,April,2025, 102.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Mei,2025, 116.20 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Juni,2025, 207.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Juli,2025, 57.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Agustus,2025, 226.50 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,September,2025, 147.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Oktober,2025, 149.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,November,2025, 159.00 , -   ,proyeksi
+91,PAPUA BARAT,3,Kedelai,Desember,2025, 160.83 , -   ,proyeksi
+91,PAPUA BARAT,3,Kedelai,Januari,2023, 104.10 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Februari,2023, 138.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Maret,2023, 138.75 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,April,2023, 161.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Mei,2023, 115.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Juni,2023, 138.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Juli,2023, 126.50 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Agustus,2023, 92.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,September,2023, 93.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Oktober,2023, 114.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,November,2023, 125.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Desember,2023, 93.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Januari,2024, 161.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Februari,2024, 92.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Maret,2024, 161.25 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,April,2024, 102.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Mei,2024, 116.20 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Juni,2024, 207.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Juli,2024, 49.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Agustus,2024, 226.50 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,September,2024, 93.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Oktober,2024, 92.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,November,2024, 159.00 , -   ,realisasi
+91,PAPUA BARAT,3,Kedelai,Desember,2024, 160.83 , -   ,realisasi
+94,PAPUA,3,Kedelai,Januari,2024, 0.46 , -   ,realisasi
+94,PAPUA,3,Kedelai,Februari,2024, 0.29 , -   ,realisasi
+94,PAPUA,3,Kedelai,Maret,2024, 0.39 , -   ,realisasi
+94,PAPUA,3,Kedelai,April,2024, 0.28 , -   ,realisasi
+94,PAPUA,3,Kedelai,Mei,2024, 0.38 , -   ,realisasi
+94,PAPUA,3,Kedelai,Juni,2024, 0.61 , -   ,realisasi
+94,PAPUA,3,Kedelai,Juli,2024, 0.43 , -   ,realisasi
+94,PAPUA,3,Kedelai,Agustus,2024, 0.57 , -   ,realisasi
+94,PAPUA,3,Kedelai,September,2024, 0.73 , -   ,realisasi
+94,PAPUA,3,Kedelai,Oktober,2024, 0.49 , -   ,realisasi
+94,PAPUA,3,Kedelai,November,2024, 0.37 , -   ,realisasi
+94,PAPUA,3,Kedelai,Desember,2024, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Januari,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Februari,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Maret,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,April,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Mei,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Juni,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Juli,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Agustus,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,September,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Oktober,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,November,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Desember,2023, -   , -   ,realisasi
+94,PAPUA,3,Kedelai,Januari,2025, 0.46 , -   ,realisasi
+94,PAPUA,3,Kedelai,Februari,2025, 0.29 , -   ,realisasi
+94,PAPUA,3,Kedelai,Maret,2025, 0.39 , -   ,realisasi
+94,PAPUA,3,Kedelai,April,2025, 0.28 , -   ,realisasi
+94,PAPUA,3,Kedelai,Mei,2025, 0.38 , -   ,realisasi
+94,PAPUA,3,Kedelai,Juni,2025, 0.61 , -   ,proyeksi
+94,PAPUA,3,Kedelai,Juli,2025, 0.43 , -   ,proyeksi
+94,PAPUA,3,Kedelai,Agustus,2025, 0.57 , -   ,proyeksi
+94,PAPUA,3,Kedelai,September,2025, 0.73 , -   ,proyeksi
+94,PAPUA,3,Kedelai,Oktober,2025, 0.49 , -   ,proyeksi
+94,PAPUA,3,Kedelai,November,2025, 0.37 , -   ,proyeksi
+94,PAPUA,3,Kedelai,Desember,2025, -   , -   ,proyeksi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Januari,2024, 5.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Februari,2024, 5.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Maret,2024, 5.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,April,2024, 4.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Mei,2024, 4.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Juni,2024, 4.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Juli,2024, 4.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Agustus,2024, 2.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,September,2024, 4.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Oktober,2024, 4.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,November,2024, 4.00 , -   ,realisasi
+97,PAPUA PEGUNUNGAN,3,Kedelai,Desember,2024, -   , -   ,proyeksi

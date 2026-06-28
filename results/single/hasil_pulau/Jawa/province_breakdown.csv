@@ -1,0 +1,7 @@
+provinsi,demand_tahunan,lokal_initial,lokal_optimized,impor_initial,impor_optimized,shortage_initial,shortage_optimized,service_initial_persen,service_optimized_persen
+DKI Jakarta,223163.8,0.0,13713.7,214516.0,211283.3,8647.8,0.0,96.12,100.00
+Jawa Barat,395766.7,36011.5,750.2,410582.5,399006.8,0.0,0.0,100.00,100.00
+Jawa Tengah,361885.8,62031.7,1292.3,391673.8,372139.3,0.0,0.0,100.00,100.00
+DI Yogyakarta,81421.8,7282.1,0.0,95363.6,82845.1,0.0,0.0,100.00,100.00
+Jawa Timur,692927.6,69656.6,1451.2,791369.8,717719.6,0.0,0.0,100.00,100.00
+Banten,94308.0,1302.4,38.5,131832.7,105085.7,0.0,0.0,100.00,100.00

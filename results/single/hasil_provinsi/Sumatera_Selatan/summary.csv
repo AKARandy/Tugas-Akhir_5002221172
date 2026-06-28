@@ -1,0 +1,8 @@
+metrik,initial,optimized,perubahan,perubahan_persen
+Demand,64050.5,64050.5,+0.0,+0.00
+Pasokan_Lokal,0.0,40357.1,+40357.1,+0.00
+Impor_Diterima,83974.2,27387.1,-56587.1,-67.39
+Transfer_Masuk,0.0,0.0,+0.0,+0.00
+Transfer_Keluar,0.0,0.0,+0.0,+0.00
+Shortage,0.0,0.0,+0.0,+0.00
+Service_Rate_Tahunan,100.00%,100.00%,+0.00 pp,-

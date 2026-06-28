@@ -1,0 +1,40 @@
+periode_t,bulan,produsen_asal,volume_ton
+5,Mei,Aceh,201.3
+6,Jun,Sumatera Utara,769.2
+4,Apr,Riau,74.3
+8,Agu,Riau,57.8
+9,Sep,Riau,64.0
+4,Apr,Jambi,694.7
+5,Mei,Jambi,752.6
+9,Sep,Jambi,598.2
+4,Apr,Lampung,316.5
+5,Mei,Lampung,342.8
+9,Sep,Lampung,272.5
+6,Jun,Jawa Barat,2879.8
+8,Agu,Jawa Barat,3417.6
+9,Sep,Jawa Barat,519.1
+4,Apr,DI Yogyakarta,640.3
+8,Agu,DI Yogyakarta,849.6
+9,Sep,DI Yogyakarta,940.6
+4,Apr,Jawa Timur,3262.4
+5,Mei,Jawa Timur,4191.8
+9,Sep,Jawa Timur,460.7
+4,Apr,Bali,487.5
+5,Mei,Bali,155.7
+9,Sep,Bali,419.8
+3,Mar,Nusa Tenggara Barat,525.0
+6,Jun,Nusa Tenggara Barat,562.7
+10,Okt,Nusa Tenggara Barat,536.3
+6,Jun,Nusa Tenggara Timur,97.1
+8,Agu,Kalimantan Selatan,713.4
+9,Sep,Kalimantan Selatan,789.8
+6,Jun,Sulawesi Tengah,978.8
+6,Jun,Sulawesi Selatan,369.2
+8,Agu,Sulawesi Tenggara,845.7
+9,Sep,Sulawesi Tenggara,1427.7
+4,Apr,Gorontalo,232.4
+5,Mei,Gorontalo,251.8
+9,Sep,Gorontalo,200.1
+6,Jun,Sulawesi Barat,49.0
+8,Agu,Maluku Utara,12.1
+9,Sep,Maluku Utara,13.4

@@ -1,0 +1,267 @@
+province,metric,initial,optimized,change,change_pct
+Aceh,demand_ton,346.770,346.770,0.000,0.00
+Aceh,local_supply_ton,155.366,346.770,191.404,123.20
+Aceh,import_received_ton,306.994,0.000,-306.994,-100.00
+Aceh,transfer_in_ton,0.000,0.000,0.000,0.00
+Aceh,transfer_out_ton,0.000,0.000,0.000,0.00
+Aceh,shortage_ton,0.000,0.000,0.000,0.00
+Aceh,service_rate,1.000,1.000,0.000,0.00
+Sumatera Utara,demand_ton,272.490,272.490,0.000,0.00
+Sumatera Utara,local_supply_ton,122.632,272.490,149.858,122.20
+Sumatera Utara,import_received_ton,240.689,0.000,-240.689,-100.00
+Sumatera Utara,transfer_in_ton,0.000,0.000,0.000,0.00
+Sumatera Utara,transfer_out_ton,0.000,0.000,0.000,0.00
+Sumatera Utara,shortage_ton,0.000,0.000,0.000,0.00
+Sumatera Utara,service_rate,1.000,1.000,0.000,0.00
+Sumatera Barat,demand_ton,32.700,32.700,0.000,0.00
+Sumatera Barat,local_supply_ton,0.000,32.700,32.700,0.00
+Sumatera Barat,import_received_ton,42.872,0.000,-42.872,-100.00
+Sumatera Barat,transfer_in_ton,0.000,0.000,0.000,0.00
+Sumatera Barat,transfer_out_ton,0.000,0.000,0.000,0.00
+Sumatera Barat,shortage_ton,0.000,0.000,0.000,0.00
+Sumatera Barat,service_rate,1.000,1.000,0.000,0.00
+Riau,demand_ton,121795.140,121795.140,0.000,0.00
+Riau,local_supply_ton,495.190,109261.223,108766.033,21964.51
+Riau,import_received_ton,118755.110,18136.953,-100618.158,-84.73
+Riau,transfer_in_ton,0.000,0.000,0.000,0.00
+Riau,transfer_out_ton,0.000,0.000,0.000,0.00
+Riau,shortage_ton,2544.840,0.000,-2544.840,-100.00
+Riau,service_rate,0.979,1.000,0.021,2.13
+Jambi,demand_ton,20855.350,20855.350,0.000,0.00
+Jambi,local_supply_ton,3451.167,13981.784,10530.617,305.13
+Jambi,import_received_ton,24139.818,8074.697,-16065.122,-66.55
+Jambi,transfer_in_ton,0.000,0.000,0.000,0.00
+Jambi,transfer_out_ton,0.000,0.000,0.000,0.00
+Jambi,shortage_ton,0.000,0.000,0.000,0.00
+Jambi,service_rate,1.000,1.000,0.000,0.00
+Sumatera Selatan,demand_ton,64050.520,64050.520,0.000,0.00
+Sumatera Selatan,local_supply_ton,0.000,40357.061,40357.061,0.00
+Sumatera Selatan,import_received_ton,83974.227,27387.091,-56587.136,-67.39
+Sumatera Selatan,transfer_in_ton,0.000,0.000,0.000,0.00
+Sumatera Selatan,transfer_out_ton,0.000,0.000,0.000,0.00
+Sumatera Selatan,shortage_ton,0.000,0.000,0.000,0.00
+Sumatera Selatan,service_rate,1.000,1.000,0.000,0.00
+Bengkulu,demand_ton,69620.780,69620.780,0.000,0.00
+Bengkulu,local_supply_ton,0.000,29973.009,29973.009,0.00
+Bengkulu,import_received_ton,91116.694,43659.082,-47457.612,-52.08
+Bengkulu,transfer_in_ton,0.000,0.000,0.000,0.00
+Bengkulu,transfer_out_ton,0.000,0.000,0.000,0.00
+Bengkulu,shortage_ton,0.000,0.000,0.000,0.00
+Bengkulu,service_rate,1.000,1.000,0.000,0.00
+Lampung,demand_ton,75191.040,75191.040,0.000,0.00
+Lampung,local_supply_ton,2109.760,23738.219,21628.459,1025.16
+Lampung,import_received_ton,81731.599,55029.036,-26702.563,-32.67
+Lampung,transfer_in_ton,0.000,0.000,0.000,0.00
+Lampung,transfer_out_ton,0.000,0.000,0.000,0.00
+Lampung,shortage_ton,0.000,0.000,0.000,0.00
+Lampung,service_rate,1.000,1.000,0.000,0.00
+Kep. Bangka Belitung,demand_ton,6732.530,6732.530,0.000,0.00
+Kep. Bangka Belitung,local_supply_ton,0.000,1673.940,1673.940,0.00
+Kep. Bangka Belitung,import_received_ton,8783.159,5482.979,-3300.180,-37.57
+Kep. Bangka Belitung,transfer_in_ton,0.000,0.000,0.000,0.00
+Kep. Bangka Belitung,transfer_out_ton,0.000,0.000,0.000,0.00
+Kep. Bangka Belitung,shortage_ton,0.000,0.000,0.000,0.00
+Kep. Bangka Belitung,service_rate,1.000,1.000,0.000,0.00
+Kepulauan Riau,demand_ton,14138.820,14138.820,0.000,0.00
+Kepulauan Riau,local_supply_ton,0.000,3515.390,3515.390,0.00
+Kepulauan Riau,import_received_ton,13479.516,12165.867,-1313.649,-9.75
+Kepulauan Riau,transfer_in_ton,0.000,0.000,0.000,0.00
+Kepulauan Riau,transfer_out_ton,0.000,0.000,0.000,0.00
+Kepulauan Riau,shortage_ton,659.304,0.000,-659.304,-100.00
+Kepulauan Riau,service_rate,0.953,1.000,0.047,4.89
+DKI Jakarta,demand_ton,223163.820,223163.820,0.000,0.00
+DKI Jakarta,local_supply_ton,0.000,13713.700,13713.700,0.00
+DKI Jakarta,import_received_ton,214516.011,211283.327,-3232.685,-1.51
+DKI Jakarta,transfer_in_ton,0.000,0.000,0.000,0.00
+DKI Jakarta,transfer_out_ton,0.000,0.000,0.000,0.00
+DKI Jakarta,shortage_ton,8647.809,0.000,-8647.809,-100.00
+DKI Jakarta,service_rate,0.961,1.000,0.039,4.03
+Jawa Barat,demand_ton,395766.680,395766.680,0.000,0.00
+Jawa Barat,local_supply_ton,36011.520,750.240,-35261.280,-97.92
+Jawa Barat,import_received_ton,410582.521,399006.804,-11575.717,-2.82
+Jawa Barat,transfer_in_ton,0.000,0.000,0.000,0.00
+Jawa Barat,transfer_out_ton,0.000,0.000,0.000,0.00
+Jawa Barat,shortage_ton,0.000,0.000,0.000,0.00
+Jawa Barat,service_rate,1.000,1.000,0.000,0.00
+Jawa Tengah,demand_ton,361885.820,361885.820,0.000,0.00
+Jawa Tengah,local_supply_ton,62031.660,1292.326,-60739.334,-97.92
+Jawa Tengah,import_received_ton,391673.826,372139.330,-19534.495,-4.99
+Jawa Tengah,transfer_in_ton,0.000,0.000,0.000,0.00
+Jawa Tengah,transfer_out_ton,0.000,0.000,0.000,0.00
+Jawa Tengah,shortage_ton,0.000,0.000,0.000,0.00
+Jawa Tengah,service_rate,1.000,1.000,0.000,0.00
+DI Yogyakarta,demand_ton,81421.830,81421.830,0.000,0.00
+DI Yogyakarta,local_supply_ton,7282.080,0.000,-7282.080,-100.00
+DI Yogyakarta,import_received_ton,95363.576,82845.064,-12518.513,-13.13
+DI Yogyakarta,transfer_in_ton,0.000,0.000,0.000,0.00
+DI Yogyakarta,transfer_out_ton,0.000,0.000,0.000,0.00
+DI Yogyakarta,shortage_ton,0.000,0.000,0.000,0.00
+DI Yogyakarta,service_rate,1.000,1.000,0.000,0.00
+Jawa Timur,demand_ton,692927.630,692927.630,0.000,0.00
+Jawa Timur,local_supply_ton,69656.570,1451.179,-68205.391,-97.92
+Jawa Timur,import_received_ton,791369.817,717719.599,-73650.218,-9.31
+Jawa Timur,transfer_in_ton,0.000,0.000,0.000,0.00
+Jawa Timur,transfer_out_ton,0.000,0.000,0.000,0.00
+Jawa Timur,shortage_ton,0.000,0.000,0.000,0.00
+Jawa Timur,service_rate,1.000,1.000,0.000,0.00
+Banten,demand_ton,94307.980,94307.980,0.000,0.00
+Banten,local_supply_ton,1302.403,38.526,-1263.877,-97.04
+Banten,import_received_ton,131832.741,105085.696,-26747.045,-20.29
+Banten,transfer_in_ton,0.000,0.000,0.000,0.00
+Banten,transfer_out_ton,0.000,0.000,0.000,0.00
+Banten,shortage_ton,0.000,0.000,0.000,0.00
+Banten,service_rate,1.000,1.000,0.000,0.00
+Bali,demand_ton,28953.950,28953.950,0.000,0.00
+Bali,local_supply_ton,3034.186,67.703,-2966.483,-97.77
+Bali,import_received_ton,34697.145,37305.792,2608.647,7.52
+Bali,transfer_in_ton,0.000,0.000,0.000,0.00
+Bali,transfer_out_ton,0.000,0.000,0.000,0.00
+Bali,shortage_ton,0.000,0.000,0.000,0.00
+Bali,service_rate,1.000,1.000,0.000,0.00
+Nusa Tenggara Barat,demand_ton,39918.370,39918.370,0.000,0.00
+Nusa Tenggara Barat,local_supply_ton,8237.970,202.632,-8035.338,-97.54
+Nusa Tenggara Barat,import_received_ton,43980.077,51175.029,7194.953,16.36
+Nusa Tenggara Barat,transfer_in_ton,0.000,0.000,0.000,0.00
+Nusa Tenggara Barat,transfer_out_ton,0.000,0.000,0.000,0.00
+Nusa Tenggara Barat,shortage_ton,0.000,0.000,0.000,0.00
+Nusa Tenggara Barat,service_rate,1.000,1.000,0.000,0.00
+Nusa Tenggara Timur,demand_ton,2883.080,2883.080,0.000,0.00
+Nusa Tenggara Timur,local_supply_ton,645.871,21.118,-624.753,-96.73
+Nusa Tenggara Timur,import_received_ton,3167.613,3488.153,320.540,10.12
+Nusa Tenggara Timur,transfer_in_ton,0.000,0.000,0.000,0.00
+Nusa Tenggara Timur,transfer_out_ton,0.000,0.000,0.000,0.00
+Nusa Tenggara Timur,shortage_ton,0.000,0.000,0.000,0.00
+Nusa Tenggara Timur,service_rate,1.000,1.000,0.000,0.00
+Kalimantan Barat,demand_ton,14686.710,14686.710,0.000,0.00
+Kalimantan Barat,local_supply_ton,0.000,0.000,0.000,0.00
+Kalimantan Barat,import_received_ton,16899.530,17584.889,685.360,4.06
+Kalimantan Barat,transfer_in_ton,0.000,0.000,0.000,0.00
+Kalimantan Barat,transfer_out_ton,0.000,0.000,0.000,0.00
+Kalimantan Barat,shortage_ton,0.000,0.000,0.000,0.00
+Kalimantan Barat,service_rate,1.000,1.000,0.000,0.00
+Kalimantan Tengah,demand_ton,14924.580,14924.580,0.000,0.00
+Kalimantan Tengah,local_supply_ton,0.000,0.000,0.000,0.00
+Kalimantan Tengah,import_received_ton,17184.784,15459.291,-1725.493,-10.04
+Kalimantan Tengah,transfer_in_ton,0.000,0.000,0.000,0.00
+Kalimantan Tengah,transfer_out_ton,0.000,0.000,0.000,0.00
+Kalimantan Tengah,shortage_ton,0.000,0.000,0.000,0.00
+Kalimantan Tengah,service_rate,1.000,1.000,0.000,0.00
+Kalimantan Selatan,demand_ton,62.310,62.310,0.000,0.00
+Kalimantan Selatan,local_supply_ton,25.531,6.930,-18.601,-72.86
+Kalimantan Selatan,import_received_ton,57.551,65.804,8.253,14.34
+Kalimantan Selatan,transfer_in_ton,0.000,0.000,0.000,0.00
+Kalimantan Selatan,transfer_out_ton,0.000,0.000,0.000,0.00
+Kalimantan Selatan,shortage_ton,0.000,0.000,0.000,0.00
+Kalimantan Selatan,service_rate,1.000,1.000,0.000,0.00
+Kalimantan Timur,demand_ton,46670.030,46670.030,0.000,0.00
+Kalimantan Timur,local_supply_ton,0.000,0.000,0.000,0.00
+Kalimantan Timur,import_received_ton,54973.748,53969.394,-1004.354,-1.83
+Kalimantan Timur,transfer_in_ton,0.000,0.000,0.000,0.00
+Kalimantan Timur,transfer_out_ton,0.000,0.000,0.000,0.00
+Kalimantan Timur,shortage_ton,0.000,0.000,0.000,0.00
+Kalimantan Timur,service_rate,1.000,1.000,0.000,0.00
+Kalimantan Utara,demand_ton,2989.630,2989.630,0.000,0.00
+Kalimantan Utara,local_supply_ton,0.000,0.000,0.000,0.00
+Kalimantan Utara,import_received_ton,3850.752,3487.903,-362.849,-9.42
+Kalimantan Utara,transfer_in_ton,0.000,0.000,0.000,0.00
+Kalimantan Utara,transfer_out_ton,0.000,0.000,0.000,0.00
+Kalimantan Utara,shortage_ton,0.000,0.000,0.000,0.00
+Kalimantan Utara,service_rate,1.000,1.000,0.000,0.00
+Sulawesi Utara,demand_ton,218.300,218.300,0.000,0.00
+Sulawesi Utara,local_supply_ton,0.000,0.000,0.000,0.00
+Sulawesi Utara,import_received_ton,261.091,245.018,-16.073,-6.16
+Sulawesi Utara,transfer_in_ton,0.000,0.000,0.000,0.00
+Sulawesi Utara,transfer_out_ton,0.000,0.000,0.000,0.00
+Sulawesi Utara,shortage_ton,0.000,0.000,0.000,0.00
+Sulawesi Utara,service_rate,1.000,1.000,0.000,0.00
+Sulawesi Tengah,demand_ton,148.750,148.750,0.000,0.00
+Sulawesi Tengah,local_supply_ton,54.884,6.695,-48.189,-87.80
+Sulawesi Tengah,import_received_ton,143.456,174.432,30.976,21.59
+Sulawesi Tengah,transfer_in_ton,0.000,0.000,0.000,0.00
+Sulawesi Tengah,transfer_out_ton,0.000,0.000,0.000,0.00
+Sulawesi Tengah,shortage_ton,0.000,0.000,0.000,0.00
+Sulawesi Tengah,service_rate,1.000,1.000,0.000,0.00
+Sulawesi Selatan,demand_ton,144.730,144.730,0.000,0.00
+Sulawesi Selatan,local_supply_ton,55.909,4.860,-51.049,-91.31
+Sulawesi Selatan,import_received_ton,137.070,162.345,25.275,18.44
+Sulawesi Selatan,transfer_in_ton,0.000,0.000,0.000,0.00
+Sulawesi Selatan,transfer_out_ton,0.000,0.000,0.000,0.00
+Sulawesi Selatan,shortage_ton,0.000,0.000,0.000,0.00
+Sulawesi Selatan,service_rate,1.000,1.000,0.000,0.00
+Sulawesi Tenggara,demand_ton,10971.070,10971.070,0.000,0.00
+Sulawesi Tenggara,local_supply_ton,3795.156,230.268,-3564.888,-93.93
+Sulawesi Tenggara,import_received_ton,10833.367,12680.430,1847.063,17.05
+Sulawesi Tenggara,transfer_in_ton,0.000,0.000,0.000,0.00
+Sulawesi Tenggara,transfer_out_ton,0.000,0.000,0.000,0.00
+Sulawesi Tenggara,shortage_ton,0.000,0.000,0.000,0.00
+Sulawesi Tenggara,service_rate,1.000,1.000,0.000,0.00
+Gorontalo,demand_ton,4681.200,4681.200,0.000,0.00
+Gorontalo,local_supply_ton,1132.250,32.278,-1099.972,-97.15
+Gorontalo,import_received_ton,4994.895,5306.951,312.056,6.25
+Gorontalo,transfer_in_ton,0.000,0.000,0.000,0.00
+Gorontalo,transfer_out_ton,0.000,0.000,0.000,0.00
+Gorontalo,shortage_ton,0.000,0.000,0.000,0.00
+Gorontalo,service_rate,1.000,1.000,0.000,0.00
+Sulawesi Barat,demand_ton,16054.500,16054.500,0.000,0.00
+Sulawesi Barat,local_supply_ton,511.220,10.650,-500.570,-97.92
+Sulawesi Barat,import_received_ton,18773.046,16599.891,-2173.155,-11.58
+Sulawesi Barat,transfer_in_ton,0.000,0.000,0.000,0.00
+Sulawesi Barat,transfer_out_ton,0.000,0.000,0.000,0.00
+Sulawesi Barat,shortage_ton,0.000,0.000,0.000,0.00
+Sulawesi Barat,service_rate,1.000,1.000,0.000,0.00
+Maluku,demand_ton,22.920,22.920,0.000,0.00
+Maluku,local_supply_ton,0.000,1.200,1.200,0.00
+Maluku,import_received_ton,29.522,25.540,-3.982,-13.49
+Maluku,transfer_in_ton,0.000,0.000,0.000,0.00
+Maluku,transfer_out_ton,0.000,0.000,0.000,0.00
+Maluku,shortage_ton,0.000,0.000,0.000,0.00
+Maluku,service_rate,1.000,1.000,0.000,0.00
+Maluku Utara,demand_ton,3234.730,3234.730,0.000,0.00
+Maluku Utara,local_supply_ton,103.560,0.000,-103.560,-100.00
+Maluku Utara,import_received_ton,3780.970,3266.925,-514.045,-13.60
+Maluku Utara,transfer_in_ton,0.000,0.000,0.000,0.00
+Maluku Utara,transfer_out_ton,0.000,0.000,0.000,0.00
+Maluku Utara,shortage_ton,0.000,0.000,0.000,0.00
+Maluku Utara,service_rate,1.000,1.000,0.000,0.00
+Papua Barat,demand_ton,59.490,59.490,0.000,0.00
+Papua Barat,local_supply_ton,0.000,0.000,0.000,0.00
+Papua Barat,import_received_ton,76.651,69.440,-7.211,-9.41
+Papua Barat,transfer_in_ton,0.000,0.000,0.000,0.00
+Papua Barat,transfer_out_ton,0.000,0.000,0.000,0.00
+Papua Barat,shortage_ton,0.000,0.000,0.000,0.00
+Papua Barat,service_rate,1.000,1.000,0.000,0.00
+Papua Barat Daya,demand_ton,23.796,23.796,0.000,0.00
+Papua Barat Daya,local_supply_ton,0.000,0.000,0.000,0.00
+Papua Barat Daya,import_received_ton,30.660,27.776,-2.884,-9.41
+Papua Barat Daya,transfer_in_ton,0.000,0.000,0.000,0.00
+Papua Barat Daya,transfer_out_ton,0.000,0.000,0.000,0.00
+Papua Barat Daya,shortage_ton,0.000,0.000,0.000,0.00
+Papua Barat Daya,service_rate,1.000,1.000,0.000,0.00
+Papua,demand_ton,35.310,35.310,0.000,0.00
+Papua,local_supply_ton,0.000,0.000,0.000,0.00
+Papua,import_received_ton,45.475,41.180,-4.295,-9.44
+Papua,transfer_in_ton,0.000,0.000,0.000,0.00
+Papua,transfer_out_ton,0.000,0.000,0.000,0.00
+Papua,shortage_ton,0.000,0.000,0.000,0.00
+Papua,service_rate,1.000,1.000,0.000,0.00
+Papua Selatan,demand_ton,7.062,7.062,0.000,0.00
+Papua Selatan,local_supply_ton,0.000,0.000,0.000,0.00
+Papua Selatan,import_received_ton,8.535,8.385,-0.150,-1.75
+Papua Selatan,transfer_in_ton,0.000,0.000,0.000,0.00
+Papua Selatan,transfer_out_ton,0.000,0.000,0.000,0.00
+Papua Selatan,shortage_ton,0.000,0.000,0.000,0.00
+Papua Selatan,service_rate,1.000,1.000,0.000,0.00
+Papua Tengah,demand_ton,7.062,7.062,0.000,0.00
+Papua Tengah,local_supply_ton,0.000,0.000,0.000,0.00
+Papua Tengah,import_received_ton,8.759,8.236,-0.523,-5.97
+Papua Tengah,transfer_in_ton,0.000,0.000,0.000,0.00
+Papua Tengah,transfer_out_ton,0.000,0.000,0.000,0.00
+Papua Tengah,shortage_ton,0.000,0.000,0.000,0.00
+Papua Tengah,service_rate,1.000,1.000,0.000,0.00
+Papua Pegunungan,demand_ton,126.340,126.340,0.000,0.00
+Papua Pegunungan,local_supply_ton,0.000,0.000,0.000,0.00
+Papua Pegunungan,import_received_ton,163.735,153.463,-10.272,-6.27
+Papua Pegunungan,transfer_in_ton,0.000,0.000,0.000,0.00
+Papua Pegunungan,transfer_out_ton,0.000,0.000,0.000,0.00
+Papua Pegunungan,shortage_ton,0.000,0.000,0.000,0.00
+Papua Pegunungan,service_rate,1.000,1.000,0.000,0.00

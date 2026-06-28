@@ -1,0 +1,126 @@
+port,province,annual_volume_ton
+Belawan,Aceh,307.0
+Belawan,Sumatera Utara,240.7
+Belawan,Sumatera Barat,6.2
+Belawan,Riau,111535.9
+Belawan,Jambi,4144.9
+Belawan,Sumatera Selatan,9609.7
+Belawan,Bengkulu,6044.2
+Belawan,Lampung,17874.6
+Belawan,Kep. Bangka Belitung,319.4
+Belawan,Kepulauan Riau,11093.7
+Belawan,Jawa Barat,40516.6
+Belawan,Bali,2448.8
+Belawan,Nusa Tenggara Barat,2963.9
+Panjang,Sumatera Selatan,1820.7
+Panjang,Lampung,51169.1
+Panjang,Jawa Barat,41234.0
+Panjang,Jawa Tengah,15383.5
+Panjang,DI Yogyakarta,13573.1
+Panjang,Bali,9029.4
+Panjang,Nusa Tenggara Barat,10011.7
+Panjang,Nusa Tenggara Timur,992.9
+Panjang,Kalimantan Barat,5183.2
+Panjang,Kalimantan Timur,20951.9
+Panjang,Kalimantan Utara,1159.6
+Panjang,Sulawesi Utara,78.6
+Panjang,Sulawesi Tengah,47.3
+Panjang,Sulawesi Selatan,27.7
+Panjang,Sulawesi Tenggara,3603.9
+Panjang,Gorontalo,1537.5
+Panjang,Maluku,8.9
+Panjang,Papua Barat,22.9
+Panjang,Papua Barat Daya,9.2
+Panjang,Papua,13.7
+Panjang,Papua Selatan,2.7
+Panjang,Papua Tengah,2.7
+Panjang,Papua Pegunungan,51.3
+Batu Ampar,Riau,7219.2
+Tanjung Priok,Sumatera Selatan,774.7
+Tanjung Priok,Bengkulu,6895.7
+Tanjung Priok,Lampung,12687.9
+Tanjung Priok,Kep. Bangka Belitung,874.7
+Tanjung Priok,Kepulauan Riau,2385.8
+Tanjung Priok,DKI Jakarta,214516.0
+Tanjung Priok,Jawa Barat,244477.1
+Tanjung Emas,Jawa Barat,56521.5
+Tanjung Emas,Jawa Tengah,344752.0
+Tanjung Emas,DI Yogyakarta,53622.9
+Tanjung Emas,Banten,4859.9
+Tanjung Emas,Bali,1528.8
+Tanjung Emas,Nusa Tenggara Barat,137.3
+Tanjung Emas,Kalimantan Barat,1234.7
+Tanjung Emas,Kalimantan Timur,5281.8
+Tanjung Emas,Sulawesi Utara,24.2
+Tanjung Emas,Papua Selatan,0.8
+Tanjung Emas,Papua Pegunungan,15.5
+Gresik,Jawa Tengah,8847.2
+Gresik,DI Yogyakarta,6669.4
+Gresik,Jawa Timur,10483.4
+Tanjung Perak,Jawa Tengah,13357.8
+Tanjung Perak,DI Yogyakarta,12164.9
+Tanjung Perak,Jawa Timur,731335.8
+Tanjung Perak,Banten,964.5
+Tanjung Perak,Bali,3832.2
+Tanjung Perak,Nusa Tenggara Barat,10418.9
+Tanjung Perak,Nusa Tenggara Timur,1036.9
+Tanjung Perak,Kalimantan Barat,3511.6
+Tanjung Perak,Kalimantan Tengah,13438.4
+Tanjung Perak,Kalimantan Selatan,46.9
+Tanjung Perak,Kalimantan Timur,17846.6
+Tanjung Perak,Kalimantan Utara,830.8
+Tanjung Perak,Sulawesi Utara,102.5
+Tanjung Perak,Sulawesi Tengah,39.7
+Tanjung Perak,Sulawesi Selatan,29.8
+Tanjung Perak,Sulawesi Tenggara,2728.3
+Tanjung Perak,Gorontalo,1242.0
+Tanjung Perak,Sulawesi Barat,14491.6
+Tanjung Perak,Maluku,6.4
+Tanjung Perak,Maluku Utara,2911.7
+Tanjung Perak,Papua Barat,16.1
+Tanjung Perak,Papua Barat Daya,6.4
+Tanjung Perak,Papua,9.8
+Tanjung Perak,Papua Selatan,3.1
+Tanjung Perak,Papua Tengah,1.6
+Tanjung Perak,Papua Pegunungan,60.7
+Cigading,Sumatera Barat,36.6
+Cigading,Jambi,19994.9
+Cigading,Sumatera Selatan,71769.2
+Cigading,Bengkulu,78176.8
+Cigading,Kep. Bangka Belitung,7589.0
+Cigading,Jawa Barat,18500.0
+Cigading,Jawa Timur,25458.2
+Cigading,Banten,110863.6
+Cilacap,Jawa Barat,9333.3
+Cilacap,Jawa Tengah,9333.3
+Cilacap,DI Yogyakarta,9333.3
+Cilacap,Jawa Timur,24092.4
+Cilacap,Banten,15144.7
+Cilacap,Kalimantan Barat,3211.9
+Cilacap,Kalimantan Tengah,3237.1
+Cilacap,Kalimantan Selatan,8.3
+Cilacap,Kalimantan Timur,6284.7
+Cilacap,Sulawesi Utara,18.5
+Cilacap,Sulawesi Barat,2.5
+Banyuwangi,Bali,17858.0
+Banyuwangi,Nusa Tenggara Barat,20448.3
+Banyuwangi,Nusa Tenggara Timur,1137.8
+Banyuwangi,Kalimantan Tengah,509.3
+Banyuwangi,Kalimantan Selatan,2.4
+Banyuwangi,Kalimantan Timur,4608.8
+Banyuwangi,Kalimantan Utara,1860.3
+Banyuwangi,Sulawesi Utara,37.4
+Banyuwangi,Sulawesi Tengah,56.5
+Banyuwangi,Sulawesi Selatan,79.5
+Banyuwangi,Sulawesi Tenggara,4501.1
+Banyuwangi,Gorontalo,2215.4
+Banyuwangi,Sulawesi Barat,4279.0
+Banyuwangi,Maluku,14.3
+Banyuwangi,Maluku Utara,869.2
+Banyuwangi,Papua Barat,37.7
+Banyuwangi,Papua Barat Daya,15.1
+Banyuwangi,Papua,21.9
+Banyuwangi,Papua Selatan,1.9
+Banyuwangi,Papua Tengah,4.4
+Banyuwangi,Papua Pegunungan,36.3
+Pontianak,Kalimantan Barat,3758.1

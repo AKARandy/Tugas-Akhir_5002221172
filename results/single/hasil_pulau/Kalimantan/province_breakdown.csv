@@ -1,0 +1,6 @@
+provinsi,demand_tahunan,lokal_initial,lokal_optimized,impor_initial,impor_optimized,shortage_initial,shortage_optimized,service_initial_persen,service_optimized_persen
+Kalimantan Barat,14686.7,0.0,0.0,16899.5,17584.9,0.0,0.0,100.00,100.00
+Kalimantan Tengah,14924.6,0.0,0.0,17184.8,15459.3,0.0,0.0,100.00,100.00
+Kalimantan Selatan,62.3,25.5,6.9,57.6,65.8,0.0,0.0,100.00,100.00
+Kalimantan Timur,46670.0,0.0,0.0,54973.7,53969.4,0.0,0.0,100.00,100.00
+Kalimantan Utara,2989.6,0.0,0.0,3850.8,3487.9,0.0,0.0,100.00,100.00

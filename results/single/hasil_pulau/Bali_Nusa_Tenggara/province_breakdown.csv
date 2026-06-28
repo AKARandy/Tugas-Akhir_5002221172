@@ -1,0 +1,4 @@
+provinsi,demand_tahunan,lokal_initial,lokal_optimized,impor_initial,impor_optimized,shortage_initial,shortage_optimized,service_initial_persen,service_optimized_persen
+Bali,28953.9,3034.2,67.7,34697.1,37305.8,0.0,0.0,100.00,100.00
+Nusa Tenggara Barat,39918.4,8238.0,202.6,43980.1,51175.0,0.0,0.0,100.00,100.00
+Nusa Tenggara Timur,2883.1,645.9,21.1,3167.6,3488.2,0.0,0.0,100.00,100.00

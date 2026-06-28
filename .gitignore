@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+/clip_pdf_pages.py
+_wheels/
+*.7z
+*.pdf
+!thesis/**/*.pdf
+!thesis/POMITS_Template/**/*.pdf

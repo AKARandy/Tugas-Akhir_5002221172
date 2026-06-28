@@ -1,0 +1,46 @@
+periode_t,bulan,produsen_asal,volume_ton
+3,Mar,Sumatera Utara,602.0
+7,Jul,Sumatera Utara,7.8
+10,Okt,Sumatera Utara,602.0
+6,Jun,Riau,47.5
+6,Jun,Jambi,443.8
+8,Agu,Jambi,540.3
+6,Jun,Lampung,202.2
+8,Agu,Lampung,246.1
+3,Mar,Jawa Barat,2700.9
+6,Jun,Jawa Barat,571.3
+7,Jul,Jawa Barat,1321.5
+10,Okt,Jawa Barat,2700.9
+6,Jun,DI Yogyakarta,697.9
+4,Apr,Jawa Timur,5252.9
+5,Mei,Jawa Timur,5423.4
+6,Jun,Jawa Timur,1170.6
+8,Agu,Jawa Timur,3633.3
+9,Sep,Jawa Timur,5248.4
+6,Jun,Bali,311.4
+8,Agu,Bali,379.1
+3,Mar,Nusa Tenggara Barat,204.5
+7,Jul,Nusa Tenggara Barat,607.9
+10,Okt,Nusa Tenggara Barat,193.2
+3,Mar,Nusa Tenggara Timur,76.0
+7,Jul,Nusa Tenggara Timur,63.4
+10,Okt,Nusa Tenggara Timur,76.0
+3,Mar,Kalimantan Selatan,458.6
+6,Jun,Kalimantan Selatan,586.0
+10,Okt,Kalimantan Selatan,458.6
+3,Mar,Sulawesi Tengah,766.0
+7,Jul,Sulawesi Tengah,638.4
+10,Okt,Sulawesi Tengah,766.0
+3,Mar,Sulawesi Selatan,288.9
+7,Jul,Sulawesi Selatan,240.8
+10,Okt,Sulawesi Selatan,288.9
+3,Mar,Sulawesi Tenggara,290.2
+6,Jun,Sulawesi Tenggara,1059.2
+8,Agu,Sulawesi Tenggara,443.8
+10,Okt,Sulawesi Tenggara,299.4
+6,Jun,Gorontalo,148.5
+8,Agu,Gorontalo,180.8
+3,Mar,Sulawesi Barat,38.3
+7,Jul,Sulawesi Barat,32.0
+10,Okt,Sulawesi Barat,38.3
+6,Jun,Maluku Utara,9.9

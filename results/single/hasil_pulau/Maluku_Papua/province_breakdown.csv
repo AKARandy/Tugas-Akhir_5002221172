@@ -1,0 +1,9 @@
+provinsi,demand_tahunan,lokal_initial,lokal_optimized,impor_initial,impor_optimized,shortage_initial,shortage_optimized,service_initial_persen,service_optimized_persen
+Maluku,22.9,0.0,1.2,29.5,25.5,0.0,0.0,100.00,100.00
+Maluku Utara,3234.7,103.6,0.0,3781.0,3266.9,0.0,0.0,100.00,100.00
+Papua Barat,59.5,0.0,0.0,76.7,69.4,0.0,0.0,100.00,100.00
+Papua Barat Daya,23.8,0.0,0.0,30.7,27.8,0.0,0.0,100.00,100.00
+Papua,35.3,0.0,0.0,45.5,41.2,0.0,0.0,100.00,100.00
+Papua Selatan,7.1,0.0,0.0,8.5,8.4,0.0,0.0,100.00,100.00
+Papua Tengah,7.1,0.0,0.0,8.8,8.2,0.0,0.0,100.00,100.00
+Papua Pegunungan,126.3,0.0,0.0,163.7,153.5,0.0,0.0,100.00,100.00

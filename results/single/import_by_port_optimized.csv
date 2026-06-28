@@ -1,0 +1,187 @@
+country,port,month,volume_ton
+USA,Belawan,Jan,6185.5
+USA,Belawan,Jun,0.0
+USA,Belawan,Agu,0.0
+USA,Belawan,Okt,2401.4
+USA,Belawan,Des,940.2
+USA,Panjang,Jan,21088.0
+USA,Panjang,Feb,1126.8
+USA,Panjang,Mar,120.2
+USA,Panjang,Jul,737.1
+USA,Panjang,Okt,904.7
+USA,Panjang,Nov,390.4
+USA,Batu Ampar,Apr,224.7
+USA,Batu Ampar,Jul,2.5
+USA,Batu Ampar,Sep,133.9
+USA,Batu Ampar,Nov,228.6
+USA,Tanjung Priok,Jan,45365.5
+USA,Tanjung Priok,Feb,26622.9
+USA,Tanjung Priok,Jun,20444.7
+USA,Tanjung Priok,Jul,22335.0
+USA,Tanjung Priok,Okt,31705.9
+USA,Tanjung Priok,Nov,4147.8
+USA,Tanjung Priok,Des,34425.6
+USA,Tanjung Emas,Jan,37387.2
+USA,Tanjung Emas,Feb,35075.6
+USA,Tanjung Emas,Mar,32382.2
+USA,Tanjung Emas,Apr,2513.2
+USA,Tanjung Emas,Mei,2647.1
+USA,Tanjung Emas,Jun,36359.6
+USA,Tanjung Emas,Jul,37541.0
+USA,Tanjung Emas,Agu,27474.6
+USA,Tanjung Emas,Sep,24184.5
+USA,Tanjung Emas,Okt,37513.1
+USA,Tanjung Emas,Nov,36376.4
+USA,Tanjung Emas,Des,37860.9
+USA,Gresik,Feb,3725.9
+USA,Gresik,Apr,3861.3
+USA,Gresik,Sep,3853.1
+USA,Tanjung Perak,Jan,63926.5
+USA,Tanjung Perak,Feb,57515.4
+USA,Tanjung Perak,Mar,73335.9
+USA,Tanjung Perak,Apr,59640.8
+USA,Tanjung Perak,Mei,65429.1
+USA,Tanjung Perak,Jun,63343.6
+USA,Tanjung Perak,Jul,65831.6
+USA,Tanjung Perak,Agu,73441.8
+USA,Tanjung Perak,Sep,59552.7
+USA,Tanjung Perak,Okt,65427.1
+USA,Tanjung Perak,Nov,63313.4
+USA,Tanjung Perak,Des,72902.7
+USA,Cigading,Jan,30000.0
+USA,Cigading,Feb,7471.9
+USA,Cigading,Mar,7986.6
+USA,Cigading,Apr,7728.9
+USA,Cigading,Mei,7986.6
+USA,Cigading,Jun,7728.9
+USA,Cigading,Jul,7986.8
+USA,Cigading,Agu,7986.5
+USA,Cigading,Sep,7731.6
+USA,Cigading,Okt,7986.7
+USA,Cigading,Nov,7728.9
+USA,Cigading,Des,7995.2
+USA,Cilacap,Mar,0.6
+USA,Cilacap,Agu,0.6
+USA,Banyuwangi,Feb,7334.0
+USA,Banyuwangi,Apr,7557.8
+USA,Banyuwangi,Mei,7651.0
+USA,Banyuwangi,Jun,7308.9
+USA,Banyuwangi,Jul,7746.5
+USA,Banyuwangi,Sep,7287.1
+USA,Banyuwangi,Okt,6741.4
+USA,Banyuwangi,Nov,7307.7
+USA,Pontianak,Mar,1127.1
+USA,Pontianak,Apr,982.4
+USA,Pontianak,Mei,1247.3
+USA,Pontianak,Jun,950.0
+USA,Pontianak,Jul,507.8
+USA,Pontianak,Agu,1280.4
+USA,Pontianak,Sep,1073.3
+USA,Pontianak,Okt,303.1
+USA,Pontianak,Nov,588.1
+USA,Pontianak,Des,445.5
+Kanada,Belawan,Jan,1563.4
+Kanada,Belawan,Okt,1600.9
+Kanada,Belawan,Des,595.5
+Kanada,Panjang,Jan,8315.6
+Kanada,Panjang,Feb,5957.8
+Kanada,Panjang,Mar,4320.6
+Kanada,Panjang,Jun,4346.1
+Kanada,Panjang,Jul,6368.6
+Kanada,Panjang,Okt,6368.6
+Kanada,Panjang,Des,6368.6
+Kanada,Batu Ampar,Jan,18.7
+Kanada,Batu Ampar,Jun,514.5
+Kanada,Batu Ampar,Jul,1197.5
+Kanada,Batu Ampar,Okt,649.5
+Kanada,Batu Ampar,Des,169.9
+Kanada,Tanjung Priok,Jan,12161.3
+Kanada,Tanjung Priok,Feb,21834.2
+Kanada,Tanjung Priok,Mar,34683.4
+Kanada,Tanjung Priok,Apr,14312.5
+Kanada,Tanjung Priok,Mei,17298.8
+Kanada,Tanjung Priok,Jun,30314.9
+Kanada,Tanjung Priok,Jul,30140.3
+Kanada,Tanjung Priok,Agu,26957.3
+Kanada,Tanjung Priok,Sep,49379.6
+Kanada,Tanjung Priok,Okt,20867.3
+Kanada,Tanjung Priok,Nov,34687.3
+Kanada,Tanjung Priok,Des,18046.0
+Kanada,Tanjung Emas,Jan,11142.1
+Kanada,Tanjung Emas,Mar,5384.3
+Kanada,Tanjung Emas,Apr,33800.2
+Kanada,Tanjung Emas,Mei,34874.5
+Kanada,Tanjung Emas,Agu,10355.6
+Kanada,Tanjung Emas,Sep,12112.3
+Kanada,Gresik,Jan,10.6
+Kanada,Tanjung Perak,Jan,7684.6
+Kanada,Tanjung Perak,Jun,6376.7
+Kanada,Tanjung Perak,Des,5607.4
+Kanada,Cigading,Jan,22063.3
+Kanada,Cigading,Feb,12309.9
+Kanada,Cigading,Jun,551.9
+Kanada,Cigading,Jul,6612.0
+Kanada,Cigading,Okt,4936.6
+Kanada,Cigading,Des,8153.4
+Kanada,Banyuwangi,Jan,9385.7
+Kanada,Banyuwangi,Jun,1518.0
+Kanada,Banyuwangi,Okt,4360.2
+Kanada,Pontianak,Jan,1197.5
+Kanada,Pontianak,Feb,1022.0
+Kanada,Pontianak,Jun,1259.3
+Kanada,Pontianak,Okt,90.9
+Kanada,Pontianak,Des,739.4
+Brazil,Panjang,Mar,6368.6
+Brazil,Panjang,Jun,613.6
+Brazil,Panjang,Nov,6163.2
+Brazil,Batu Ampar,Mar,937.5
+Brazil,Batu Ampar,Jun,306.8
+Brazil,Batu Ampar,Nov,1158.9
+Brazil,Tanjung Priok,Mar,13447.4
+Brazil,Tanjung Priok,Apr,30030.0
+Brazil,Tanjung Priok,Mei,26682.8
+Brazil,Tanjung Priok,Nov,12006.3
+Brazil,Cigading,Mar,2877.8
+Brazil,Cigading,Nov,11416.5
+Brazil,Pontianak,Mar,260.0
+Malaysia,Panjang,Jun,834.1
+Malaysia,Batu Ampar,Jan,1112.4
+Malaysia,Batu Ampar,Jun,141.1
+Malaysia,Batu Ampar,Okt,496.7
+Malaysia,Tanjung Priok,Apr,812.5
+Malaysia,Tanjung Priok,Mei,910.0
+Malaysia,Tanjung Priok,Agu,1105.0
+Malaysia,Tanjung Priok,Sep,812.5
+Malaysia,Gresik,Jan,22.3
+Malaysia,Tanjung Perak,Jan,274.0
+Malaysia,Tanjung Perak,Okt,274.0
+Malaysia,Tanjung Perak,Des,855.1
+Malaysia,Cigading,Feb,955.7
+Malaysia,Cigading,Mar,812.5
+Malaysia,Cigading,Jun,551.9
+Malaysia,Cigading,Jul,1040.0
+Malaysia,Cigading,Okt,993.3
+Malaysia,Cigading,Nov,1202.5
+Malaysia,Cigading,Des,855.1
+Malaysia,Banyuwangi,Jan,23.0
+Malaysia,Banyuwangi,Okt,898.4
+Bolivia,Batu Ampar,Feb,1102.7
+Bolivia,Batu Ampar,Jul,0.0
+Bolivia,Batu Ampar,Des,816.8
+Bolivia,Tanjung Priok,Apr,37.4
+Bolivia,Tanjung Emas,Des,506.4
+Bolivia,Tanjung Perak,Mar,0.0
+Bolivia,Tanjung Perak,Jul,0.0
+Bolivia,Tanjung Perak,Des,2434.7
+Bolivia,Cigading,Feb,1212.7
+Bolivia,Cigading,Mar,2252.0
+Bolivia,Cigading,Jul,1325.9
+Bolivia,Cigading,Nov,571.5
+Bolivia,Cigading,Des,7065.5
+Bolivia,Pontianak,Des,584.1
+Uruguay,Panjang,Agu,1373.8
+Uruguay,Batu Ampar,Agu,1197.5
+Uruguay,Tanjung Priok,Agu,24395.1
+Uruguay,Tanjung Perak,Agu,7.5
+Uruguay,Cigading,Agu,891.3
+Uruguay,Cilacap,Agu,0.6

@@ -1,0 +1,7 @@
+numpy
+matplotlib
+alns
+pandas
+openpyxl
+networkx
+nbconvert

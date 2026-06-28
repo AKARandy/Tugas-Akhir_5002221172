@@ -1,0 +1,111 @@
+periode_t,bulan,produsen_asal,volume_ton
+3,Mar,Aceh,74.0
+4,Apr,Aceh,179.5
+6,Jun,Aceh,68.6
+7,Jul,Aceh,29.4
+8,Agu,Aceh,138.6
+9,Sep,Aceh,155.4
+10,Okt,Aceh,83.3
+11,Nov,Aceh,31.8
+12,Des,Aceh,33.2
+1,Jan,Sumatera Utara,167.2
+2,Feb,Sumatera Utara,234.1
+7,Jul,Sumatera Utara,493.8
+11,Nov,Sumatera Utara,334.4
+12,Des,Sumatera Utara,334.4
+1,Jan,Riau,10.3
+2,Feb,Riau,14.4
+7,Jul,Riau,30.9
+11,Nov,Riau,20.6
+12,Des,Riau,20.6
+1,Jan,Jambi,20.3
+2,Feb,Jambi,135.1
+3,Mar,Jambi,113.2
+7,Jul,Jambi,289.5
+10,Okt,Jambi,104.0
+11,Nov,Jambi,193.0
+12,Des,Jambi,193.0
+1,Jan,Lampung,44.0
+2,Feb,Lampung,61.5
+7,Jul,Lampung,131.9
+11,Nov,Lampung,87.9
+12,Des,Lampung,87.9
+2,Feb,Jawa Barat,1050.3
+11,Nov,Jawa Barat,1500.5
+12,Des,Jawa Barat,1500.5
+2,Feb,Jawa Tengah,1809.3
+3,Mar,Jawa Tengah,4652.4
+4,Apr,Jawa Tengah,9304.7
+5,Mei,Jawa Tengah,10018.2
+6,Jun,Jawa Tengah,5944.7
+7,Jul,Jawa Tengah,3877.0
+8,Agu,Jawa Tengah,7237.0
+9,Sep,Jawa Tengah,8012.4
+10,Okt,Jawa Tengah,4652.4
+11,Nov,Jawa Tengah,2584.7
+12,Des,Jawa Tengah,2584.7
+1,Jan,DI Yogyakarta,151.7
+2,Feb,DI Yogyakarta,212.4
+11,Nov,DI Yogyakarta,303.4
+12,Des,DI Yogyakarta,303.4
+2,Feb,Jawa Timur,2031.6
+3,Mar,Jawa Timur,5224.2
+4,Apr,Jawa Timur,224.2
+6,Jun,Jawa Timur,3795.4
+7,Jul,Jawa Timur,4353.5
+8,Agu,Jawa Timur,2727.4
+9,Sep,Jawa Timur,1579.3
+10,Okt,Jawa Timur,5224.2
+11,Nov,Jawa Timur,2902.4
+12,Des,Jawa Timur,2902.4
+2,Feb,Banten,12.4
+3,Mar,Banten,135.9
+4,Apr,Banten,274.7
+5,Mei,Banten,297.7
+6,Jun,Banten,174.5
+7,Jul,Banten,112.8
+8,Agu,Banten,213.0
+9,Sep,Banten,236.2
+10,Okt,Banten,135.9
+11,Nov,Banten,74.4
+12,Des,Banten,74.3
+2,Feb,Bali,94.8
+7,Jul,Bali,203.1
+11,Nov,Bali,135.4
+12,Des,Bali,135.4
+2,Feb,Nusa Tenggara Barat,283.7
+11,Nov,Nusa Tenggara Barat,380.9
+12,Des,Nusa Tenggara Barat,405.3
+2,Feb,Nusa Tenggara Timur,29.6
+11,Nov,Nusa Tenggara Timur,42.2
+12,Des,Nusa Tenggara Timur,42.2
+1,Jan,Kalimantan Selatan,120.5
+2,Feb,Kalimantan Selatan,178.4
+11,Nov,Kalimantan Selatan,254.8
+12,Des,Kalimantan Selatan,254.8
+1,Jan,Sulawesi Tengah,206.1
+2,Feb,Sulawesi Tengah,297.9
+11,Nov,Sulawesi Tengah,425.6
+12,Des,Sulawesi Tengah,425.6
+1,Jan,Sulawesi Selatan,74.2
+2,Feb,Sulawesi Selatan,112.4
+11,Nov,Sulawesi Selatan,160.5
+12,Des,Sulawesi Selatan,160.5
+2,Feb,Sulawesi Tenggara,322.4
+7,Jul,Sulawesi Tenggara,690.8
+11,Nov,Sulawesi Tenggara,460.5
+12,Des,Sulawesi Tenggara,460.5
+2,Feb,Gorontalo,45.2
+3,Mar,Gorontalo,116.2
+7,Jul,Gorontalo,96.8
+10,Okt,Gorontalo,116.2
+11,Nov,Gorontalo,64.6
+12,Des,Gorontalo,64.6
+2,Feb,Sulawesi Barat,14.9
+11,Nov,Sulawesi Barat,21.3
+12,Des,Sulawesi Barat,21.3
+1,Jan,Maluku Utara,2.2
+2,Feb,Maluku Utara,3.0
+7,Jul,Maluku Utara,6.5
+11,Nov,Maluku Utara,4.3
+12,Des,Maluku Utara,4.3

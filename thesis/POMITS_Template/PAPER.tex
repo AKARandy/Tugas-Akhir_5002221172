@@ -1,0 +1,435 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% File ini ditujukan untuk menulis 
+%%% Paper POMITS menggunakan LaTeX untuk program sarjana
+%%% di Institut Teknologi Sepuluh Nopember, Surabaya.
+%%%
+%%% Komentar, saran, koreksi, modifikasi untuk file ini dipersilakan
+%%%
+%%% Didapat dari: Ahmad Zaki Al Muntazhar
+%%% Matematika ITS 2019
+%%% Revisi terahir oleh: Ahmad Hisbu Zakiyudin
+%%% Matematika ITS 2020
+%%% <azakiyudin1790@gmail.com>
+%%% Revisi terakhir (Juni 2024): 
+%%% 1. Penyesuaian Header (masih belum sama persis), 
+%%% 2. Penyesuaian Penomoran Definisi, Teorema, Contoh, dan Persamaan (2022),
+%%% 3. Penyempurnaan sesuai Format POMITS.
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[journal]{IEEEtran}
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{amssymb,amsmath,amsthm,graphicx}
+\usepackage{caption,tabularx,multicol,multirow}
+\usepackage{listings,color,booktabs}
+\usepackage{float}
+\usepackage{algpseudocode}
+\usepackage{array}
+\usepackage{scrfontsizes}
+\usepackage{afterpage}
+\usepackage{subfig}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algpseudocode}
+\captionsetup[figure]{labelsep=period}
+\captionsetup[figure]{name={Gambar}}
+
+\captionsetup[table]{labelsep=newline}
+\captionsetup[table]{name={Tabel}}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\setlength{\parindent}{0.36cm}
+\newenvironment{breakablealgorithm}
+  {% \begin{breakablealgorithm}
+   \begin{center}
+     \refstepcounter{algorithm}% New algorithm
+     \hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+     \renewcommand{\caption}[2][\relax]{% Make a new \caption
+       {\raggedright\textbf{\fname@algorithm~\thealgorithm} ##2\par}%
+       \ifx\relax##1\relax % #1 is \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+       \else % #1 is not \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+       \fi
+       \kern2pt\hrule\kern2pt
+     }
+  }{% \end{breakablealgorithm}
+     \kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+   \end{center}
+  }
+
+
+\newtheorem{defn}{Definisi}[section]
+\newtheorem{teo}[defn]{Teorema}
+\newtheorem{thm}{Teorema}
+\newtheorem{lemma}{Lemma}
+\newtheorem{lemmas}[defn]{Lemma}
+\newtheorem{cor}[defn]{Akibat}
+\newtheorem{asumsi}[defn]{Asumsi}
+\theoremstyle{definition}
+\newtheorem{con}{Contoh}[section]
+\theoremstyle{definition}
+\theoremstyle{plain}
+\newtheorem{prop}{Proposisi}
+\renewcommand{\proofname}{Bukti}
+\renewcommand{\thedefn}{\arabic{section}.\arabic{defn}}
+\renewcommand{\thecon}{\arabic{section}.\arabic{con}}
+
+\newcommand{\normlp}[1]{\left\|#1\right\|_{L^p_{\lambda}(0,T;H)}}% Fungsi norm (||x||)
+\newcommand{\R}{\mathbb{R}}
+\renewcommand{\natural}{\mathbb{N}}
+\newcommand{\Xpl}{X^R_{p,\lambda}}
+\newcommand{\Xpls}{X^R_{p,\lambda^*}}
+\newcommand{\qpl}{q^R_{p,\lambda}}
+\newcommand{\qpls}{q^R_{p,\lambda^*}}
+\newcommand{\katakunci}[1]{%
+    \noindent\\
+    \textit{\textbf{Kata Kunci---}}{\textbf{#1}}
+}
+
+%\renewcommand\thetheorem{\arabic{section}.\arabic{theorem}}
+\renewcommand{\listfigurename}{\hfill\normalsize\textbf{DAFTAR GAMBAR}\hfill}
+\renewcommand{\listtablename}{\hfill\normalsize\textbf{DAFTAR TABEL}\hfill}
+\renewcommand{\contentsname}{\hfill\normalsize\textbf{DAFTAR ISI}\hfill}
+\renewcommand{\refname}{}
+\renewcommand{\arraystretch}{1.2}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{ITSblue}{rgb}{0.08,0.38,0.74}
+
+\lstdefinestyle{mypseudo}{ 
+commentstyle=\bfseries,
+keywordstyle=\bfseries,
+breakatwhitespace=false,         
+breaklines=true,                 
+captionpos=b,                    
+keepspaces=true,                  
+showspaces=false,                
+showstringspaces=false,
+showtabs=false,
+literate={\ \ }{{\ }}2
+}
+\lstset{basicstyle=\sffamily\scriptsize,style=mypseudo}
+\def\abstractname{Abstrak}
+%\renewcommand{\thetable}{\arabic{table}}
+
+\begin{document}
+
+    \title{\changefontsizes{24}OPTIMASI RANTAI PASOK KEDELAI NASIONAL MULTI-PERIODE \textit{MENGGUNAKAN ADAPTIVE LARGE NEIGHBORHOOD SEARCH}\\ \vspace{12pt}}
+
+    \author{\changefontsizes{11}Alief Randiansyah Pradanaputra\\
+    Departemen Matematika\\Institut Teknologi Sepuluh Nopember (ITS)\\
+    Jl. Arief Rahman Hakim, Surabaya 60111 Indonesia\\
+    \textit{e-mail} : isi-email@domain.ac.id\\ \vspace{-1em}}
+    \markboth{\small JURNAL TEKNIK ITS Vol. X, No. Y, (TAHUN) ISSN: 2337-3539 (2301-9271 Print)}{}
+
+     \maketitle
+
+    \begin{abstract}
+   \small \noindent Ketergantungan impor kedelai Indonesia yang tinggi menimbulkan risiko ketahanan pangan, terutama ketika distribusi antarwilayah tidak merata dan kapasitas produksi lokal tidak cukup menutup kebutuhan nasional. Penelitian ini mengembangkan model optimasi rantai pasok kedelai nasional berbasis \textit{Mixed Integer Linear Programming} (MILP) multi-periode untuk menentukan alokasi produksi lokal, impor reguler, distribusi melalui pelabuhan, transfer antarprovinsi, inventori, dan \textit{shortage} pada 38 provinsi, 11 pelabuhan, tiga negara pemasok, dan horizon 12 bulan. Model diposisikan sebagai \textit{Inventory-Transportation Problem} dengan kendala kebijakan dan target strategis berupa batas \textit{shortage}, ketergantungan impor, penyerapan produksi lokal, dan inventori minimum. Karena skala masalah tidak praktis diselesaikan dengan pendekatan eksak, penelitian ini menerapkan \textit{Adaptive Large Neighborhood Search} (ALNS) dan membandingkan tiga konfigurasi, yaitu ALNS-TS, ALNS-PRS adapted, dan ALNS-only. Hasil baseline 50 seed dan 500 iterasi menunjukkan bahwa ALNS-PRS adapted menghasilkan \textit{mean shortage} terendah sebesar 1,73 ton dan \textit{worst shortage} 27,55 ton. Pada run utama, metode ini menurunkan $Z_{cost}$ dari Rp 22,33 triliun menjadi Rp 20,72 triliun, menghilangkan \textit{shortage}, dan meningkatkan pemanfaatan produksi lokal sebesar 19,84\%. Analisis 13 skenario menunjukkan bahwa sistem paling rentan terhadap penurunan kapasitas pelabuhan dan kenaikan permintaan, sedangkan target impor 85\% dan 80\% tidak realistis tanpa peningkatan kapasitas produksi lokal.
+    \end{abstract}
+
+    \katakunci{\small Kedelai, \textit{Inventory-Transportation Problem}, MILP, ALNS, PRS Adapted, Ketahanan Pangan.}
+
+    \IEEEpeerreviewmaketitle
+
+     \section{PENDAHULUAN}
+     \normalsize \IEEEPARstart{K}{EDELAI} merupakan komoditas pangan penting bagi Indonesia karena menjadi bahan utama tempe, tahu, kecap, dan berbagai produk pangan lain. Kebutuhan nasional berada pada kisaran 2,5--3 juta ton per tahun, sedangkan produksi domestik masih jauh lebih rendah daripada konsumsi. Produksi domestik tahun 2023 hanya sekitar 349,10 ribu ton atau 13,14\% dari kebutuhan 2,66 juta ton; sisanya dipenuhi melalui impor \cite{kementan2024kedelai,pusdatin2024konsumsi}. Kondisi ini memperbesar risiko terhadap volatilitas harga global, nilai tukar, dan ketersediaan pasokan eksternal.
+
+     Masalah tidak berhenti pada kecukupan volume nasional. Defisit produksi juga terjadi hampir di seluruh provinsi. Survei Pola Distribusi Kedelai BPS 2023 menunjukkan bahwa 81,48\% provinsi yang tercatat mengalami defisit antara produksi lokal dan kebutuhan wilayahnya \cite{bps2023distribusi}. Dalam model penelitian ini digunakan 38 provinsi sesuai pemekaran wilayah Papua sejak 2022. Artinya, walaupun pasokan impor tersedia secara agregat, keputusan distribusi antarwilayah tetap menentukan apakah kebutuhan tiap provinsi dapat dipenuhi.
+
+     Rantai distribusi kedelai memiliki karakteristik berbeda antara pasokan lokal dan impor. Kedelai lokal melalui rantai multi-aktor yang lebih panjang, sedangkan kedelai impor umumnya masuk melalui importir lalu pedagang besar atau distributor \cite{cips2023logistics}. Perbedaan tersebut memengaruhi biaya dan membuat keputusan alokasi perlu mempertimbangkan sumber pasokan, pelabuhan masuk, provinsi tujuan, transfer antarprovinsi, dan inventori bulanan secara simultan.
+
+     Penelitian terdahulu mengenai rantai pasok kedelai telah menggunakan pendekatan optimasi matematis, misalnya untuk desain rantai pasok berkelanjutan atau perencanaan taktis dalam konteks regional \cite{SHARIFI2023,reis2023stochastic}. Namun, konteks ketahanan pangan nasional Indonesia membutuhkan formulasi yang memasukkan batas kebijakan seperti ketergantungan impor, penyerapan produksi lokal, inventori minimum, dan mekanisme distribusi terkoordinasi. Karena skala nasional menghasilkan ruang pencarian besar dan keputusan biner-kontinu yang saling bergantung, penelitian ini menggunakan \textit{Adaptive Large Neighborhood Search} (ALNS) sebagai pendekatan metaheuristik \cite{pisinger2018lns,fathollahifard2023alns}.
+
+     Kontribusi artikel ini adalah menyusun formulasi MILP multi-periode untuk alokasi rantai pasok kedelai nasional sebagai \textit{Inventory-Transportation Problem} (ITP), mengimplementasikan ALNS dengan solusi awal berbasis data historis dan \textit{feasibility repair}, mengevaluasi tiga konfigurasi ALNS, serta melakukan analisis skenario deterministik untuk membaca sensitivitas terhadap harga, kapasitas impor, kapasitas pelabuhan, permintaan, dan batas ketergantungan impor.
+
+    \section{METODE PENELITIAN}
+    \subsection{Ruang Lingkup dan Data}
+    Sistem yang dimodelkan mencakup himpunan provinsi konsumen $I$ dengan $|I|=38$, sentra produksi lokal $K$ dengan $|K|=20$, pelabuhan impor $H$ dengan $|H|=11$, negara sumber impor $S$ dengan $|S|=3$, dan periode bulanan $T$ dengan $|T|=12$. Negara sumber impor yang digunakan adalah Amerika Serikat, Kanada, dan Brasil. Pelabuhan diperlakukan sebagai \textit{throughput pipe}, sehingga seluruh impor yang masuk pada bulan $t$ harus keluar melalui distribusi ke provinsi pada bulan yang sama.
+
+    \begin{table}[H]
+    \centering
+    \caption{Dimensi utama model}
+    \label{tab:dimensi}
+    \begin{tabular}{lr}
+    \toprule
+    \textbf{Komponen} & \textbf{Jumlah} \\
+    \midrule
+    Provinsi konsumen & 38 \\
+    Sentra produksi lokal & 20 \\
+    Negara sumber impor & 3 \\
+    Pelabuhan impor & 11 \\
+    Periode perencanaan & 12 bulan \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+
+    Data sekunder dikumpulkan dari sumber resmi nasional dan diubah menjadi instance numerik yang konsisten. Permintaan bulanan provinsi dibaca dari Proyeksi Neraca Komoditas Kedelai 2024. Produksi lokal menggunakan data BPS tahunan yang didistribusikan ke bulan dengan pola musiman. Data impor negara asal, pelabuhan, dan aliran historis negara-pelabuhan-bulan digunakan untuk kapasitas impor, kapasitas pelabuhan, harga CIF, dan solusi awal. Koordinat provinsi dan pelabuhan digunakan untuk membentuk biaya berbasis jarak Haversine, kluster wilayah, dan multiplier infrastruktur.
+
+    \subsection{Formulasi Model}
+    Model menentukan lima aliran utama: pasokan lokal $x^{loc}_{k,i,t}$, impor reguler $x^{imp}_{s,h,t}$, impor darurat opsional $x^{emg}_{s,h,t}$, distribusi pelabuhan $x^{dist}_{h,i,t}$, dan transfer antarprovinsi $x^{trns}_{i,j,t}$. Variabel turunan meliputi inventori $inv_{i,t}$, \textit{shortage} $sh_{i,t}$, indikator aktivasi impor $y_{s,t}$, indikator impor darurat $z_t$, status stok aman $safe_{i,t}$, dan kelayakan transfer keluar $w_{i,t}$.
+
+    Tujuan utama model adalah meminimalkan total biaya fisik rantai pasok $Z_{cost}$:
+    \begin{align}
+    \min Z_{cost} =
+    &\sum_{t,k,i} (C^{PROD}_{k}+C^{SHIP}_{k,i})x^{loc}_{k,i,t}
+    + \sum_{t,s,h} C^{PURCH}_{s}x^{imp}_{s,h,t} \nonumber\\
+    &+ \sum_{t,h,i} C^{DIST}_{h,i}x^{dist}_{h,i,t}
+    + \sum_{t,i,j} C^{TRANS}_{i,j}x^{trns}_{i,j,t} \nonumber\\
+    &+ \sum_{t,i} H^{PROV}_{i}inv_{i,t}
+    + \sum_{t,s}F^{ACT}_{s}y_{s,t} \nonumber\\
+    &+ \sum_{t,s,h} C^{EMG}_{s}x^{emg}_{s,h,t}
+    + \sum_t F^{EMG}z_t .
+    \label{eq:objective}
+    \end{align}
+
+    Keseimbangan inventori provinsi menyatakan bahwa inventori akhir bulan sama dengan inventori sebelumnya ditambah pasokan masuk, dikurangi transfer keluar dan permintaan, dengan kekurangan dicatat sebagai $sh_{i,t}$:
+    \begin{align}
+    inv_{i,t} =&\ inv_{i,t-1}+\sum_k x^{loc}_{k,i,t}
+    +\sum_h x^{dist}_{h,i,t}+\sum_j x^{trns}_{j,i,t} \nonumber\\
+    &-\sum_j x^{trns}_{i,j,t}-D_{i,t}+sh_{i,t}, \quad \forall i,t.
+    \label{eq:balance}
+    \end{align}
+
+    Pelabuhan tidak menyimpan stok, sehingga total impor reguler dan darurat yang masuk harus sama dengan total distribusi keluar pada periode yang sama:
+    \begin{align}
+    \sum_s x^{imp}_{s,h,t}+\sum_s x^{emg}_{s,h,t}
+    =\sum_i x^{dist}_{h,i,t}, \quad \forall h,t.
+    \label{eq:port}
+    \end{align}
+
+    Kendala kapasitas meliputi kapasitas produksi lokal, kapasitas \textit{throughput} pelabuhan, kuota impor, dan kapasitas gudang provinsi:
+    \begin{align}
+    \sum_i x^{loc}_{k,i,t} &\leq Cap^{PROD}_{k,t}, &&\forall k,t, \\
+    \sum_s x^{imp}_{s,h,t}+\sum_s x^{emg}_{s,h,t} &\leq Cap^{PORT}_{h,t}, &&\forall h,t, \\
+    \sum_h x^{imp}_{s,h,t} &\leq Cap^{IMP}_{s,t}, &&\forall s,t, \\
+    inv_{i,t} &\leq Cap^{STOR}_{i}, &&\forall i,t.
+    \end{align}
+
+    Target strategis ditangani melalui pendekatan $\epsilon$-\textit{constraint} dan penalti normalized AUGMECON \cite{MAVROTAS_EPSILON}. Target tersebut meliputi batas \textit{shortage}, batas ketergantungan impor, batas penyerapan produksi lokal, dan batas inventori minimum. Untuk meringkas notasi, misalkan
+    \begin{align}
+    Imp &= \sum_{t,s,h}(x^{imp}_{s,h,t}+x^{emg}_{s,h,t}),\\
+    Loc &= \sum_{t,k,i}x^{loc}_{k,i,t}.
+    \end{align}
+    Maka target strategis ditulis sebagai:
+    \begin{align}
+    \sum_{t,i} sh_{i,t} &\leq \epsilon_1, \\
+    Imp &\leq \epsilon_2(Imp+Loc), \\
+    Loc &\geq \epsilon_3, \\
+    inv_{i,t} &\geq \epsilon_4D_{i,t}, \quad \forall i,t.
+    \end{align}
+    Nilai dasar yang digunakan adalah $\epsilon_1=0$, $\epsilon_2=0,90$, $\epsilon_3$ dikunci dari total produksi lokal solusi awal, dan $\epsilon_4=0,10$ dari permintaan bulanan.
+
+    \subsection{Kerangka ALNS}
+    Satu solusi direpresentasikan sebagai kumpulan tensor aliran, bukan sebagai rute tunggal. ALNS mengubah nilai aliran melalui pola \textit{destroy-repair}. Operator \textit{destroy} menghapus atau mengurangi sebagian aliran berdasarkan bulan, provinsi, pelabuhan, atau kluster wilayah. Operator \textit{repair} mengisi kembali bagian yang rusak dengan strategi berbasis biaya, permintaan, dan penalti. Setelah kandidat terbentuk, prosedur \textit{feasibility repair} menghitung ulang keseimbangan aliran, inventori, \textit{shortage}, aktivasi impor, dan kelayakan transfer.
+
+    Solusi awal tidak dibuat acak. Dengan \texttt{USE\_HISTORICAL\_IC=True}, aliran impor reguler diisi dari data historis negara-pelabuhan-bulan, dibatasi kapasitas \textit{throughput} pelabuhan, kemudian aliran pelabuhan dialokasikan ke provinsi berdasarkan permintaan dan biaya distribusi. Produksi lokal awal dialokasikan terlebih dahulu ke provinsi produsen hingga batas kapasitas dan sebagian permintaan. Impor darurat dan transfer dimulai dari nol.
+
+    Tiga konfigurasi dievaluasi pada eksperimen baseline. ALNS-TS menggunakan Tabu Search dengan gerakan substitusi sebagian impor menjadi produksi lokal pada pasangan provinsi-bulan. ALNS-PRS adapted menggunakan intensifikasi lokal yang terinspirasi \textit{Prism Refraction Search} (PRS), tetapi disesuaikan untuk ruang solusi diskrit-terkendala \cite{kundu2024prism}. ALNS-only tidak menggunakan intensifikasi lokal tambahan.
+
+    PRS adapted tidak dimaknai sebagai implementasi PRS kontinu murni. Dalam penelitian ini, satu nilai sudut disimpan untuk tiap gerakan lokal. Sudut diperbarui dengan persamaan pembiasan PRS, lalu dinormalisasi menjadi probabilitas pemilihan gerakan. Kandidat hasil gerakan selalu melewati \textit{feasibility repair} dan hanya diterima jika objektif membaik.
+
+    \begin{table}[H]
+    \centering
+    \caption{Gerakan lokal ALNS-PRS adapted}
+    \label{tab:prs_moves}
+    \begin{tabularx}{\columnwidth}{lX}
+    \toprule
+    \textbf{Gerakan} & \textbf{Makna} \\
+    \midrule
+    \textit{import-to-local} & Mengganti sebagian impor dengan produksi lokal jika kapasitas tersedia. \\
+    \textit{reroute-to-cheaper-port} & Mengalihkan aliran ke pelabuhan lebih murah jika kapasitas memungkinkan. \\
+    \textit{fill-worst-shortage} & Memprioritaskan provinsi-bulan dengan \textit{shortage} terbesar. \\
+    \textit{transfer-surplus-to-deficit} & Memindahkan surplus dari provinsi layak transfer ke provinsi defisit. \\
+    \bottomrule
+    \end{tabularx}
+    \end{table}
+
+    \subsection{Desain Eksperimen}
+    Eksperimen baseline membandingkan tiga konfigurasi ALNS pada 50 seed dan 500 iterasi. Metrik yang digunakan adalah $Z_{cost}$, total \textit{shortage}, \textit{service rate}, \textit{import dependency}, penyerapan produksi lokal, dan waktu komputasi. Konfigurasi terbaik dari baseline digunakan pada eksperimen skenario.
+
+    Eksperimen skenario menggunakan konfigurasi ALNS-PRS adapted terpilih. Terdapat 13 skenario deterministik, masing-masing 10 seed. Skenario S1--S4 mempertahankan batas \textit{import dependency} 90\% agar dampak harga, kapasitas impor, kapasitas pelabuhan, dan permintaan dapat dibandingkan pada standar kebijakan yang sama. Skenario S5 mengubah batas kebijakan impor untuk membaca sensitivitas kebijakan.
+
+    \begin{table}[H]
+    \centering
+    \caption{Konfigurasi eksperimen baseline}
+    \label{tab:baseline_config}
+    \begin{tabular}{lll}
+    \toprule
+    \textbf{Konfigurasi} & \textbf{Intensifikasi lokal} & \textbf{SA} \\
+    \midrule
+    ALNS-TS & Tabu Search & Standar \\
+    ALNS-PRS adapted & PRS-inspired local search & Standar \\
+    ALNS-only & Tidak ada & Standar \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+
+    \section{HASIL DAN PEMBAHASAN}
+    \subsection{Perbandingan Konfigurasi ALNS}
+    Tabel \ref{tab:baseline_result} menunjukkan hasil baseline 50 seed dan 500 iterasi. ALNS-PRS adapted menghasilkan rata-rata \textit{shortage} paling rendah, yaitu 1,73 ton, jauh di bawah ALNS-TS sebesar 23,31 ton dan ALNS-only sebesar 10,37 ton. Risiko outlier juga paling kecil dengan \textit{worst shortage} 27,55 ton.
+
+    \begin{table}[H]
+    \centering
+    \caption{Ringkasan eksperimen baseline multi-seed}
+    \label{tab:baseline_result}
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{lrrr}
+    \toprule
+    \textbf{Metrik} & \textbf{ALNS-TS} & \textbf{ALNS-PRS adapted} & \textbf{ALNS-only} \\
+    \midrule
+    Mean $Z_{cost}$ (T Rp) & 20,64 & 20,57 & 20,69 \\
+    Std $Z_{cost}$ (T Rp) & 0,57 & 0,41 & 0,73 \\
+    Best $Z_{cost}$ (T Rp) & 19,91 & 19,71 & 19,64 \\
+    Worst $Z_{cost}$ (T Rp) & 22,38 & 22,13 & 24,08 \\
+    Mean shortage (ton) & 23,31 & 1,73 & 10,37 \\
+    Worst shortage (ton) & 586,56 & 27,55 & 230,43 \\
+    Mean service rate (\%) & 99,9990 & 99,9999 & 99,9996 \\
+    Mean import dependency (\%) & 90,802 & 90,804 & 90,861 \\
+    Mean produksi lokal (ton) & 240.918 & 240.178 & 239.853 \\
+    Avg runtime (s/run) & 60,04 & 31,87 & 8,25 \\
+    \bottomrule
+    \end{tabular}}
+    \end{table}
+
+    ALNS-only adalah konfigurasi tercepat, tetapi stabilitas \textit{shortage}-nya lebih rendah. ALNS-TS memiliki kualitas kompetitif, tetapi rata-rata runtime sekitar 60,04 detik per run dan masih memiliki outlier \textit{shortage} besar. Karena itu, ALNS-PRS adapted dipilih sebagai konfigurasi lanjutan: kualitas \textit{shortage}-nya paling stabil, runtime lebih rendah daripada ALNS-TS, dan $Z_{cost}$ tetap kompetitif.
+
+    \subsection{Hasil Optimasi Utama}
+    Run utama menggunakan ALNS-PRS adapted dengan seed 42. Dibandingkan solusi awal berbasis data historis, solusi hasil optimasi menurunkan $Z_{cost}$ sebesar 7,23\%, menghilangkan \textit{shortage}, menurunkan \textit{import dependency} 2,08 poin persentase, dan meningkatkan pemanfaatan produksi lokal 19,84\%.
+
+    \begin{table}[H]
+    \centering
+    \caption{Perbandingan solusi awal dan ALNS-PRS adapted}
+    \label{tab:main_result}
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{lrrr}
+    \toprule
+    \textbf{Metrik} & \textbf{Solusi awal} & \textbf{ALNS-PRS adapted} & \textbf{Perubahan} \\
+    \midrule
+    $Z_{cost}$ (T Rp) & 22,33 & 20,72 & -7,23\% \\
+    Total shortage (ton) & 9.672,03 & 0,00 & -100,00\% \\
+    Import dependency (\%) & 92,92 & 90,84 & -2,08 pp \\
+    Produksi lokal (ton) & 201.085,47 & 240.982,89 & +19,84\% \\
+    Service rate (\%) & 99,60 & 100,00 & +0,40 pp \\
+    \bottomrule
+    \end{tabular}}
+    \end{table}
+
+    Secara operasional, hasil optimasi dapat dibaca sebagai rencana alokasi: berapa ton produksi lokal dikirim dari sentra produksi ke provinsi tujuan, berapa ton impor dibeli dari tiap negara, pelabuhan mana yang digunakan, dan bagaimana pasokan didistribusikan setiap bulan. Dashboard yang dibangun dari artefak JSON hasil optimasi digunakan sebagai alat bantu inspeksi, bukan sebagai solver baru. Dashboard menampilkan ringkasan nasional, detail provinsi, dan detail pelabuhan untuk menelusuri aliran pasokan.
+
+    \subsection{Analisis Wilayah}
+    Agregasi kluster pulau menunjukkan bahwa solusi optimasi menghilangkan \textit{shortage} pada seluruh wilayah utama. Perbaikan terbesar terjadi pada Sumatera dan Jawa, yaitu dua kluster yang masih memiliki \textit{shortage} pada solusi awal.
+
+    \begin{table}[H]
+    \centering
+    \caption{Ringkasan kinerja per kluster pulau}
+    \label{tab:cluster_result}
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{lrrrrr}
+    \toprule
+    \textbf{Kluster} & \textbf{Demand} & \textbf{Lokal} & \textbf{Impor} & \textbf{Shortage} & \textbf{Service} \\
+    & \textbf{(ton)} & \textbf{(ton)} & \textbf{(ton)} & \textbf{(ton)} & \textbf{(\%)} \\
+    \midrule
+    Sumatera & 373.036,0 & 204.949,7 & 211.553,2 & 0,0 & 100,00 \\
+    Jawa & 1.849.473,7 & 30.704,4 & 1.898.575,2 & 0,0 & 100,00 \\
+    Bali dan NT & 71.755,4 & 1.457,7 & 77.004,9 & 0,0 & 100,00 \\
+    Kalimantan & 79.333,4 & 1.076,1 & 82.904,0 & 0,0 & 100,00 \\
+    Sulawesi & 32.218,4 & 2.764,2 & 31.500,7 & 0,0 & 100,00 \\
+    Maluku dan Papua & 3.516,7 & 30,9 & 3.838,2 & 0,0 & 100,00 \\
+    \midrule
+    Nasional & 2.409.333,6 & 240.983,0 & 2.305.376,2 & 0,0 & 100,00 \\
+    \bottomrule
+    \end{tabular}}
+    \end{table}
+
+    Peningkatan produksi lokal tidak berarti seluruh provinsi produsen hanya memenuhi kebutuhannya sendiri. ALNS mengalihkan sebagian produksi lokal ke provinsi yang secara biaya dan kebijakan lebih menguntungkan untuk dilayani dari pasokan domestik. Hal ini membuat \textit{import dependency} turun, tetapi dapat menaikkan \textit{landed cost} pada wilayah tertentu karena biaya distribusi lokal jarak jauh menjadi lebih tinggi.
+
+    \subsection{Analisis Skenario}
+    Eksperimen skenario dilakukan dengan ALNS-PRS adapted pada 13 skenario dan 10 seed per skenario. Tabel \ref{tab:scenario_result} menunjukkan bahwa kenaikan harga impor terutama menaikkan biaya, sedangkan gangguan kapasitas fisik dan kenaikan permintaan lebih langsung menekan \textit{shortage}, \textit{service rate}, dan pelanggaran \textit{import dependency}.
+
+    \begin{table}[H]
+    \centering
+    \caption{Ringkasan hasil eksperimen skenario}
+    \label{tab:scenario_result}
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{lrrrrr}
+    \toprule
+    \textbf{Skenario} & \textbf{$Z_{cost}$} & \textbf{Shortage} & \textbf{Service} & \textbf{Import dep.} & \textbf{Violation} \\
+    & \textbf{(T Rp)} & \textbf{(ton)} & \textbf{(\%)} & \textbf{(\%)} & \textbf{(pp)} \\
+    \midrule
+    S0\_BASE & 20,56 & 2,70 & 99,9999 & 90,79 & 0,79 \\
+    S1\_PRICE\_15 & 23,07 & 0,78 & 100,0000 & 90,74 & 0,74 \\
+    S1\_PRICE\_30 & 25,68 & 1,05 & 100,0000 & 90,73 & 0,73 \\
+    S2\_IMPORT\_CAP\_25 & 20,87 & 112,76 & 99,9953 & 91,06 & 1,06 \\
+    S2\_IMPORT\_CAP\_50 & 22,14 & 603,66 & 99,9749 & 91,83 & 1,83 \\
+    S3\_PORT\_CAP\_25 & 21,30 & 84,33 & 99,9965 & 91,20 & 1,20 \\
+    S3\_PORT\_CAP\_50 & 20,41 & 50.486,31 & 97,9046 & 90,90 & 0,90 \\
+    S4\_DEMAND\_10 & 23,63 & 407,45 & 99,9846 & 92,17 & 2,17 \\
+    S4\_DEMAND\_20 & 26,67 & 93,27 & 99,9968 & 93,13 & 3,13 \\
+    S5\_IMPORT\_RELAX\_92 & 20,93 & 0,98 & 100,0000 & 91,92 & 0,04 \\
+    S5\_IMPORT\_RELAX\_95 & 23,75 & 6,97 & 99,9997 & 93,18 & 0,00 \\
+    S5\_IMPORT\_FORCE\_85 & 20,83 & 44,55 & 99,9982 & 90,92 & 5,92 \\
+    S5\_IMPORT\_FORCE\_80 & 20,76 & 2,70 & 99,9999 & 90,89 & 10,89 \\
+    \bottomrule
+    \end{tabular}}
+    \end{table}
+
+    Skenario harga impor 15\% dan 30\% menaikkan $Z_{cost}$ menjadi Rp 23,07 triliun dan Rp 25,68 triliun, tetapi \textit{shortage} tetap sangat rendah. Sebaliknya, penurunan kapasitas negara sumber impor 25\% dan 50\% menaikkan \textit{shortage} menjadi 112,76 ton dan 603,66 ton. Skenario kapasitas pelabuhan turun 50\% menjadi tekanan paling berat dengan \textit{shortage} 50.486,31 ton dan \textit{service rate} 97,9046\%.
+
+    Kenaikan permintaan 10\% dan 20\% mendorong \textit{import dependency} menjadi 92,17\% dan 93,13\%. Hasil ini menunjukkan bahwa ketika kebutuhan naik, tambahan pasokan lebih banyak dipenuhi melalui impor karena kapasitas produksi lokal tidak memiliki ruang cukup untuk mengimbangi permintaan. Pada skenario kebijakan, relaksasi batas impor ke 92\% dan 95\% menurunkan tekanan penalti, tetapi meningkatkan ketergantungan pada impor. Sebaliknya, batas 85\% dan 80\% tidak dapat dicapai pada data dasar saat ini; \textit{import dependency} tetap sekitar 90,9\%, sehingga pelanggaran kebijakan menjadi 5,92 dan 10,89 poin persentase.
+
+    \section{KESIMPULAN}
+    Masalah alokasi pasokan kedelai nasional dapat diformulasikan sebagai MILP multi-periode untuk 38 provinsi, 11 pelabuhan, tiga negara sumber impor, dan horizon 12 bulan. Model mencakup keputusan produksi lokal, impor, distribusi pelabuhan, transfer antarprovinsi, inventori, dan \textit{shortage}; sedangkan target \textit{shortage}, ketergantungan impor, penyerapan lokal, dan inventori minimum ditangani melalui penalti normalized AUGMECON.
+
+    Eksperimen baseline menunjukkan bahwa ALNS-PRS adapted merupakan konfigurasi paling seimbang untuk eksperimen lanjutan. Dibandingkan ALNS-TS dan ALNS-only, konfigurasi ini menghasilkan rata-rata \textit{shortage} dan \textit{worst shortage} paling rendah dengan runtime yang masih praktis. Run utama menunjukkan penurunan biaya 7,23\%, penghilangan \textit{shortage}, dan peningkatan pemanfaatan produksi lokal sebesar 19,84\%.
+
+    Analisis skenario menunjukkan bahwa rantai pasok kedelai nasional lebih rentan terhadap gangguan kapasitas fisik dan kenaikan permintaan daripada kenaikan harga impor. Penurunan kapasitas pelabuhan 50\% menjadi skenario paling berat. Selain itu, batas ketergantungan impor 85\% dan 80\% tidak realistis tanpa peningkatan produksi lokal, substitusi domestik, atau perubahan struktur konsumsi.
+
+    \section*{UCAPAN TERIMA KASIH}
+    Penulis mengucapkan terima kasih kepada Departemen Matematika Institut Teknologi Sepuluh Nopember atas dukungan akademik dalam penyusunan penelitian ini.
+
+    \section*{DAFTAR PUSTAKA}
+    \begin{thebibliography}{99}
+    \bibitem{kementan2024kedelai}
+    Kementerian Pertanian Republik Indonesia, \textit{Analisis Kinerja Perdagangan Komoditas Kedelai}, 2024.
+
+    \bibitem{pusdatin2024konsumsi}
+    Pusat Data dan Sistem Informasi Pertanian, \textit{Buletin Konsumsi Pangan}, Kementerian Pertanian Republik Indonesia, 2024.
+
+    \bibitem{bps2023distribusi}
+    Badan Pusat Statistik, \textit{Distribusi Perdagangan Komoditas Kedelai Indonesia 2023}, Jakarta: BPS, 2023.
+
+    \bibitem{cips2023logistics}
+    Center for Indonesian Policy Studies, \textit{Logistics and Soybean Distribution in Indonesia}, 2023.
+
+    \bibitem{SHARIFI2023}
+    M. Sharifi \textit{et al.}, ``A two-stage multi-objective model for sustainable soybean supply chain design,'' 2023.
+
+    \bibitem{reis2023stochastic}
+    J. Reis \textit{et al.}, ``Stochastic programming for tactical planning in soybean supply chains,'' 2023.
+
+    \bibitem{pisinger2018lns}
+    D. Pisinger and S. Ropke, ``Large neighborhood search,'' in \textit{Handbook of Metaheuristics}, 3rd ed., Springer, 2019.
+
+    \bibitem{fathollahifard2023alns}
+    A. M. Fathollahi-Fard \textit{et al.}, ``An adaptive large neighborhood search for assignment-type optimization problems,'' 2023.
+
+    \bibitem{MAVROTAS_EPSILON}
+    G. Mavrotas, ``Effective implementation of the epsilon-constraint method in multi-objective mathematical programming problems,'' \textit{Applied Mathematics and Computation}, vol. 213, no. 2, pp. 455--465, 2009.
+
+    \bibitem{kundu2024prism}
+    R. Kundu, S. Chattopadhyay, S. Nag, M. A. Navarro, and D. Oliva, ``Prism refraction search: a novel physics-based metaheuristic algorithm,'' \textit{The Journal of Supercomputing}, vol. 80, no. 8, pp. 10746--10795, 2024.
+    \end{thebibliography}
+
+\end{document}

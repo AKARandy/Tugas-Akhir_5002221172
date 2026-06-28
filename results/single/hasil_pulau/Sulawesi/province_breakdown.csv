@@ -1,0 +1,7 @@
+provinsi,demand_tahunan,lokal_initial,lokal_optimized,impor_initial,impor_optimized,shortage_initial,shortage_optimized,service_initial_persen,service_optimized_persen
+Sulawesi Utara,218.3,0.0,0.0,261.1,245.0,0.0,0.0,100.00,100.00
+Sulawesi Tengah,148.8,54.9,6.7,143.5,174.4,0.0,0.0,100.00,100.00
+Sulawesi Selatan,144.7,55.9,4.9,137.1,162.3,0.0,0.0,100.00,100.00
+Sulawesi Tenggara,10971.1,3795.2,230.3,10833.4,12680.4,0.0,0.0,100.00,100.00
+Gorontalo,4681.2,1132.3,32.3,4994.9,5307.0,0.0,0.0,100.00,100.00
+Sulawesi Barat,16054.5,511.2,10.7,18773.0,16599.9,0.0,0.0,100.00,100.00
